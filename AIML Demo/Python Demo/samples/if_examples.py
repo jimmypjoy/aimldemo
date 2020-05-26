@@ -1,4 +1,4 @@
-x_string = input("Enter a Number")
+x_string = input("Enter a Number:")
 x = int(x_string)
 
 if x == 1:
