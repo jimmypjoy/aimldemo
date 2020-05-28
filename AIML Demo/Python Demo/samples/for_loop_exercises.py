@@ -50,3 +50,7 @@ def print_a_number_triangle(number):
 print_a_number_triangle(6)
 print(is_prime(19))
 print(sum_upto_n(19))
+print('##########enumerate')
+numbers1 = [1,4,6,3,4]
+for index,number in enumerate(numbers1):
+    print(f'{index} - {number}')
