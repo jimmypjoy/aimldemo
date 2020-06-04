@@ -52,8 +52,8 @@
       <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\samples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.module_2">
-    <configuration name="enum_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.operator_overloading_examples">
+    <configuration name="encapsulation_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,53 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/enum_examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="for_loop_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/for_loop_exercises.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="methods_samples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/methods_samples.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/encapsulation_examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,13 +116,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="operator_overloading_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/operator_overloading_examples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="switch_alternatives" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/switch_alternatives.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.operator_overloading_examples" />
+        <item itemvalue="Python.encapsulation_examples" />
+        <item itemvalue="Python.switch_alternatives" />
         <item itemvalue="Python.module_2" />
         <item itemvalue="Python.module_1" />
-        <item itemvalue="Python.methods_samples" />
-        <item itemvalue="Python.enum_examples" />
-        <item itemvalue="Python.for_loop_exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -191,28 +191,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1590692271675">
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1591294354512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590692271675" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1590692271675">
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591294354512" />
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
+    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1591294354512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590692271675" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1590692271674">
+    <state width="1899" height="196" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591294354512" />
+    <state width="1899" height="196" key="GridCell.Tab.0.center/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
+    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1591294354512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590692271674" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1590692271675">
+    <state width="1899" height="196" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591294354512" />
+    <state width="1899" height="196" key="GridCell.Tab.0.left/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
+    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1591294354512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590692271675" />
+    <state width="1899" height="196" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591294354512" />
+    <state width="1899" height="196" key="GridCell.Tab.0.right/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
     <state x="667" y="73" width="585" height="894" key="find.popup" timestamp="1590414497330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
