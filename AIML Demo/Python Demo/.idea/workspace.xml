@@ -20,10 +20,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1ec895-acb3-4a48-9baa-af10939e604f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/02k_nearest_neighbors/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/02k_nearest_neighbors/k_nearest_neighbors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/03support_vector_machine/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/03support_vector_machine/support_vector_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/04kernel_svm/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/04kernel_svm/kernel_svm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/05naive_bayes/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/05naive_bayes/naive_bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/06decision_tree_classification/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/06decision_tree_classification/decision_tree_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/07random_forest_classification/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/03classification/07random_forest_classification/random_forest_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/04clustering/01k_means_clustering/Mall_Customers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/04clustering/01k_means_clustering/k_means_clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/04clustering/02hierarchical_clustering/Mall_Customers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/04clustering/02hierarchical_clustering/hierarchical_clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/05association_rule/01apriori/Market_Basket_Optimisation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/05association_rule/01apriori/apriori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/05association_rule/01apriori/apyori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/06reinforcement_learning/01upper_confidence_bound/Ads_CTR_Optimisation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/06reinforcement_learning/01upper_confidence_bound/upper_confidence_bound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/06reinforcement_learning/02thompson_sampling/Ads_CTR_Optimisation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/06reinforcement_learning/02thompson_sampling/thompson_sampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/07nlp/Restaurant_Reviews.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiml/datapreprocessing/Data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiml/datapreprocessing/data_preprocessing_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiml/datapreprocessing/data_preprocessing_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/classification/01logistic_regression/Social_Network_Ads.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/03classification/01logistic_regression/Social_Network_Ads.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/classification/01logistic_regression/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/03classification/01logistic_regression/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/02simple_linear_regression/Salary_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/02simple_linear_regression/Salary_Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/02simple_linear_regression/simple_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/02simple_linear_regression/simple_linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/02simple_linear_regression/temperature_prediction_degree_faren.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/02simple_linear_regression/temperature_prediction_degree_faren.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/02simple_linear_regression/temperature_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/02simple_linear_regression/temperature_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/03multiple_linear_regression/50_Startups.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/03multiple_linear_regression/50_Startups.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/03multiple_linear_regression/multiple_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/03multiple_linear_regression/multiple_linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/04polynomial_regression/Position_Salaries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/04polynomial_regression/Position_Salaries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/04polynomial_regression/polynomial_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/04polynomial_regression/polynomial_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/05support_vector_regression/Position_Salaries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/05support_vector_regression/Position_Salaries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/05support_vector_regression/support_vector_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/05support_vector_regression/support_vector_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/06decision_tree_regression/Position_Salaries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/06decision_tree_regression/Position_Salaries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/06decision_tree_regression/decision_tree_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/06decision_tree_regression/decision_tree_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/07random_forest_regression/Position_Salaries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/07random_forest_regression/Position_Salaries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/regression/07random_forest_regression/random_forest_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/02regression/07random_forest_regression/random_forest_regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +87,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aiml/classification/01logistic_regression" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aiml/07nlp" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Python Demo" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Python Demo" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\classification\01logistic_regression" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\07random_forest_regression" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06decision_tree_regression" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\05support_vector_regression" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\04polynomial_regression" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\01upper_confidence_bound" />
       <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\regression" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\07nlp" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\02thompson_sampling" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\05association_rule\01apriori" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\04clustering\02hierarchical_clustering" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.logistic_regression">
-    <configuration name="decision_tree_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.natural_language_processing">
+    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/06decision_tree_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/05association_rule/01apriori" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/06decision_tree_regression/decision_tree_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/05association_rule/01apriori/apriori.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="apyori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/classification/01logistic_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/05association_rule/01apriori" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/classification/01logistic_regression/logistic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/05association_rule/01apriori/apyori.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forest_regression (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hierarchical_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/regression/07random_forest_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/04clustering/02hierarchical_clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/regression/07random_forest_regression/random_forest_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/04clustering/02hierarchical_clustering/hierarchical_clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forest_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="natural_language_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/07random_forest_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/07nlp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/07random_forest_regression/random_forest_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="support_vector_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="upper_confidence_bound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +204,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/05support_vector_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/06reinforcement_learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/05support_vector_regression/support_vector_regression.py" />
+      <option name="SCRIPT_NAME" value="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\01upper_confidence_bound\upper_confidence_bound.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logistic_regression" />
-        <item itemvalue="Python.random_forest_regression (1)" />
-        <item itemvalue="Python.random_forest_regression" />
-        <item itemvalue="Python.decision_tree_regression" />
-        <item itemvalue="Python.support_vector_regression" />
+        <item itemvalue="Python.natural_language_processing" />
+        <item itemvalue="Python.upper_confidence_bound" />
+        <item itemvalue="Python.apriori" />
+        <item itemvalue="Python.apyori" />
+        <item itemvalue="Python.hierarchical_clustering" />
       </list>
     </recent_temporary>
   </component>
@@ -214,58 +261,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591538114518" />
-    <state width="1899" height="117" key="GridCell.Tab.0.bottom" timestamp="1592946756887">
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom" timestamp="1593533428926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="117" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592946756887" />
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533428926" />
     <state width="1259" height="117" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="117" key="GridCell.Tab.0.center" timestamp="1592946756887">
+    <state width="1899" height="245" key="GridCell.Tab.0.center" timestamp="1593533428926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="117" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592946756887" />
+    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533428926" />
     <state width="1259" height="117" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.center/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="117" key="GridCell.Tab.0.left" timestamp="1592946756887">
+    <state width="1899" height="245" key="GridCell.Tab.0.left" timestamp="1593533428926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="117" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592946756887" />
+    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533428926" />
     <state width="1259" height="117" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.left/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="117" key="GridCell.Tab.0.right" timestamp="1592946756887">
+    <state width="1899" height="245" key="GridCell.Tab.0.right" timestamp="1593533428926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="117" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592946756887" />
+    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533428926" />
     <state width="1259" height="117" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.right/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1259" height="141" key="GridCell.Tab.1.bottom" timestamp="1592357511320">
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1593533015029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592357511320" />
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533015029" />
     <state width="1259" height="141" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1259" height="141" key="GridCell.Tab.1.center" timestamp="1592357511320">
+    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1593533015029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592357511320" />
+    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533015029" />
     <state width="1259" height="141" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1259" height="141" key="GridCell.Tab.1.left" timestamp="1592357511320">
+    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1593533015029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592357511320" />
+    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533015029" />
     <state width="1259" height="141" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1259" height="141" key="GridCell.Tab.1.right" timestamp="1592357511320">
+    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1593533015029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1592357511320" />
+    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593533015029" />
     <state width="1259" height="141" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state x="2204" y="122" key="SettingsEditor" timestamp="1592825294735">
-      <screen x="1920" y="122" width="1280" height="693" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1593532545169">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591540721927" />
+    <state x="461" y="165" key="SettingsEditor/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593532545169" />
     <state x="2204" y="122" key="SettingsEditor/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592825294735" />
     <state width="512" height="446" key="SwitcherDM" timestamp="1591735348127">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -275,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="73" width="585" height="894" key="find.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590414497330" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1591733757499">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1593539340447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591733757499" />
+    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593539340447" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,29 +336,74 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aiml/regression/02simple_linear_regression/simple_linear_regression.py</url>
+          <url>file://$PROJECT_DIR$/aiml/02regression/02simple_linear_regression/simple_linear_regression.py</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aiml/regression/03multiple_linear_regression/multiple_linear_regression.py</url>
+          <url>file://$PROJECT_DIR$/aiml/02regression/03multiple_linear_regression/multiple_linear_regression.py</url>
           <line>10</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aiml/regression/04polynomial_regression/polynomial_regression.py</url>
+          <url>file://$PROJECT_DIR$/aiml/02regression/04polynomial_regression/polynomial_regression.py</url>
           <line>9</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aiml/regression/04polynomial_regression/polynomial_regression.py</url>
+          <url>file://$PROJECT_DIR$/aiml/02regression/04polynomial_regression/polynomial_regression.py</url>
           <line>48</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aiml/regression/05support_vector_regression/support_vector_regression.py</url>
+          <url>file://$PROJECT_DIR$/aiml/02regression/05support_vector_regression/support_vector_regression.py</url>
           <line>8</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/03classification/02k_nearest_neighbors/k_nearest_neighbors.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/03classification/03support_vector_machine/support_vector_machine.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/03classification/08model_selection/grid_search.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/04clustering/01k_means_clustering/k_means_clustering.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/04clustering/01k_means_clustering/k_means_clustering.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/04clustering/02hierarchical_clustering/hierarchical_clustering.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/05association_rule/01apriori/apriori.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
