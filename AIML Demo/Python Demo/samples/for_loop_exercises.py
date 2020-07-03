@@ -1,3 +1,6 @@
+marks = [23,56,67]
+for mark in marks:
+    print(mark)
 
 def is_prime(number):
 

@@ -1,9 +1,9 @@
 def method_1():
-    print("method 1")
+    print("method 1 inside module 1")
 
 class ClassA:
     def class_method_1(self):
-        print("class_method_1 method 1")
+        print("class_method_1 method 1 inside module 1")
 
 # print(__name__)
 

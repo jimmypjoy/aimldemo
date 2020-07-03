@@ -1,3 +1,9 @@
+marks = [23,56,67]
+try:
+    print(marks.index(60))
+except:
+    print('No 60 in marks')
+
 try:
      i = 0
      number = 10/i

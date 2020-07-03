@@ -26,3 +26,8 @@ print(type(squares_first_ten_numbers))
 print("List comprehension#####")
 print([len(str) for str in animals])
 print([str for str in animals if len(str)>3])
+
+print("List slice#####")
+print(marks[0:2])
+print(marks[0:])
+print(marks[-2:])

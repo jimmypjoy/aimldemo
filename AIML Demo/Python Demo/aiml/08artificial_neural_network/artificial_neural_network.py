@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 tf.__version__
+print('JJ sample tensorflow program:Tensorflow version is:'+tf.__version__)
 
 # Part 1 - Data Preprocessing
 

@@ -20,10 +20,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1ec895-acb3-4a48-9baa-af10939e604f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aiml/08artificial_neural_network/Churn_Modelling.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiml/08artificial_neural_network/artificial_neural_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/convolutional_neural_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/single_prediction/cat_or_dog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/single_prediction/cat_or_dog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/cats/cat.4003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/cats/cat.4018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/cats/cat.4019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/cats/cat.4020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/cats/cat.4021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/cats/cat.4022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/test_set/dogs/dog.4040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/cats/cat.57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/09convolutional_neural_network/dataset/training_set/dogs/dog.9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/10dimension_reduction/01principal_component_analysis/Wine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/10dimension_reduction/01principal_component_analysis/principal_component_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/10dimension_reduction/02linear_discriminant_analysis/Wine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/10dimension_reduction/02linear_discriminant_analysis/linear_discriminant_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/10dimension_reduction/03kernel_pca/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/10dimension_reduction/03kernel_pca/kernel_pca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/11model_selection/Social_Network_Ads.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/11model_selection/grid_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/11model_selection/k_fold_cross_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/08artificial_neural_network/artificial_neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/08artificial_neural_network/artificial_neural_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oops/module_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/module_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oops/module_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/module_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/exception_handling_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/exception_handling_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/for_loop_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/for_loop_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/list_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/list_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/string_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/string_module.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aiml/08artificial_neural_network" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aiml/11model_selection" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -66,15 +113,15 @@
       <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\regression" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\08artificial_neural_network" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\07nlp" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\02thompson_sampling" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\05association_rule\01apriori" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\11model_selection" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\10dimension_reduction\03kernel_pca" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\10dimension_reduction\02linear_discriminant_analysis" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\10dimension_reduction\01principal_component_analysis" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\09convolutional_neural_network" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.temperature_regression">
-    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.list_sample">
+    <configuration name="exception_handling_examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/05association_rule/01apriori" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/05association_rule/01apriori/apriori.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/exception_handling_examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="for_loop_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/03classification/01logistic_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/03classification/01logistic_regression/logistic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/for_loop_exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="natural_language_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/07nlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temperature_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/02regression/02simple_linear_regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/02regression/02simple_linear_regression/temperature_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/list_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="upper_confidence_bound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="string_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,11 +213,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/06reinforcement_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\01upper_confidence_bound\upper_confidence_bound.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/string_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.temperature_regression" />
-        <item itemvalue="Python.logistic_regression" />
-        <item itemvalue="Python.natural_language_processing" />
-        <item itemvalue="Python.upper_confidence_bound" />
-        <item itemvalue="Python.apriori" />
+        <item itemvalue="Python.list_sample" />
+        <item itemvalue="Python.for_loop_exercises" />
+        <item itemvalue="Python.exception_handling_examples" />
+        <item itemvalue="Python.functions" />
+        <item itemvalue="Python.string_module" />
       </list>
     </recent_temporary>
   </component>
@@ -223,53 +270,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591538114518" />
-    <state width="1899" height="245" key="GridCell.Tab.0.bottom" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom" timestamp="1593812576531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812576531" />
     <state width="1259" height="117" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.0.center" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.0.center" timestamp="1593812576531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812576531" />
     <state width="1259" height="117" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.center/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.0.left" timestamp="1593554388352">
+    <state width="1899" height="245" key="GridCell.Tab.0.left" timestamp="1593812576531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388352" />
+    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812576531" />
     <state width="1259" height="117" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.left/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.0.right" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.0.right" timestamp="1593812576531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812576531" />
     <state width="1259" height="117" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.right/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1593812572759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812572759" />
     <state width="1259" height="141" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1593812572759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812572759" />
     <state width="1259" height="141" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1593812572759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812572759" />
     <state width="1259" height="141" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1593554388353">
+    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1593812572759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554388353" />
+    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593812572759" />
     <state width="1259" height="141" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1593532545169">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -284,10 +331,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="73" width="585" height="894" key="find.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590414497330" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1593554292928">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1593811426398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593554292928" />
+    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593811426398" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,6 +408,26 @@
           <url>file://$PROJECT_DIR$/aiml/07nlp/natural_language_processing.py</url>
           <line>46</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/10dimension_reduction/01principal_component_analysis/principal_component_analysis.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/10dimension_reduction/03kernel_pca/kernel_pca.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/list_sample.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/list_sample.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
