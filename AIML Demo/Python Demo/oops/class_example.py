@@ -4,6 +4,7 @@
 class Book:
 
     def __init__(self, name, copies):
+        print('inside __init__')
         self.name = name
         self.copies = copies
 

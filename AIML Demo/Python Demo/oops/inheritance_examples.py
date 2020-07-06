@@ -20,9 +20,9 @@ class Student(Person):
         return repr((super().__repr__(),self.college_name))
 
 
-person = Person('Ranga')
+person = Person('JJ')
 
-student = Student('Ranga', 'Pondicherry Engg College')
+student = Student('JJ', 'College1')
 
 print(person)
 
