@@ -18,6 +18,8 @@ print("#####")
 animals = ['Cat', 'Dog','Elephant']
 animals.append('Fish')
 print(animals)
+animals.pop()
+print(animals)
 
 squares_first_ten_numbers = [  i*i for i in range(1,11) ]
 print(squares_first_ten_numbers)

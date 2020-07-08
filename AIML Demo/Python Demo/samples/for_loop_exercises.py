@@ -6,6 +6,10 @@ for mark in marks:
         continue
     print(mark)
 
+# print range in the increment of 3
+for i in range(0,10,3):
+    print(i)
+
 
 def is_prime(number):
 

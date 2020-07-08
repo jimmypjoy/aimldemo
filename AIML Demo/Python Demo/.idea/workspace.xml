@@ -20,21 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1ec895-acb3-4a48-9baa-af10939e604f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inputs/sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/file_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/input_sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oops/book_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/class_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oops/inheritance_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/inheritance_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oops/module_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/module_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oops/module_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/module_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/basics1.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/basics1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/dictionary_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/dictionary_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oops/class_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/class_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samples/for_loop_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/for_loop_exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samples/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/if_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/if_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/string_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/string_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/tuple_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/tuple_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/lamda_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/lamda_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/list_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/list_sample.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,28 +75,7 @@
       <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\09convolutional_neural_network" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.basics1">
-    <configuration name="basics1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/basics1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.class_example">
     <configuration name="class_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,27 +89,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/class_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dictionary_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/dictionary_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="set_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +130,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/set_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lamda_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/lamda_sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/list_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.basics1" />
         <item itemvalue="Python.class_example" />
-        <item itemvalue="Python.dictionary_sample" />
+        <item itemvalue="Python.lamda_sample" />
+        <item itemvalue="Python.functions" />
         <item itemvalue="Python.for_loop_exercises" />
-        <item itemvalue="Python.set_sample" />
+        <item itemvalue="Python.list_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -234,53 +225,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591538114518" />
-    <state width="1899" height="117" key="GridCell.Tab.0.bottom" timestamp="1594063450775">
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="117" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594063450775" />
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="117" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="117" key="GridCell.Tab.0.center" timestamp="1594063450775">
+    <state width="1899" height="245" key="GridCell.Tab.0.center" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="117" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594063450775" />
+    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="117" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.center/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="117" key="GridCell.Tab.0.left" timestamp="1594063450775">
+    <state width="1899" height="245" key="GridCell.Tab.0.left" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="117" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594063450775" />
+    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="117" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.left/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="117" key="GridCell.Tab.0.right" timestamp="1594063450775">
+    <state width="1899" height="245" key="GridCell.Tab.0.right" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="117" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594063450775" />
+    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="117" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.right/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1594061975170">
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594061975170" />
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="141" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1594061975170">
+    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594061975170" />
+    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="141" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1594061975170">
+    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594061975170" />
+    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="141" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1594061975170">
+    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1594246104592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594061975170" />
+    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1259" height="141" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1593532545169">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -402,6 +393,11 @@
           <url>file://$PROJECT_DIR$/samples/dictionary_sample.py</url>
           <line>2</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/lamda_sample.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

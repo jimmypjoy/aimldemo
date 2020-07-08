@@ -1,5 +1,7 @@
 # MotorBike
  # gear, speed
+from builtins import print
+
 
 class Book:
 
@@ -17,14 +19,17 @@ class Book:
     def decrease_copies(self, how_much):
         self.copies -= how_much
 
-    #set
-    #get
+    def test_method(self):
+        print('##### inside test method####')
+
 
 book1 = Book('Mastering Spring 5.0', 200)
 book1.increase_copies(50)
 
 book2 = Book('Mastering Python 3', 15)
 book2.decrease_copies(5)
+
+book2.test_method()
 
 print(book1)
 print(book2)
