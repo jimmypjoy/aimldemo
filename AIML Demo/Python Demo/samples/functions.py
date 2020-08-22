@@ -20,3 +20,16 @@ def fun3(str1):
     return str1.upper()
 
 print(fun3('test'))
+
+def test_var_args(f_arg, *argv):
+    print("first normal arg:", f_arg)
+    for arg in argv:
+        print("another arg through *argv:", arg)
+
+test_var_args('var1', 'python', 'var2', 'var3')
+
+def greet_me(**kwargs):
+    for key, value in kwargs.items():
+        print("{0} = {1}".format(key, value))
+
+greet_me(name="n1",name2="n2")

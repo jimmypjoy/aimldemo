@@ -20,12 +20,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1ec895-acb3-4a48-9baa-af10939e604f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libraries/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/os_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/sys_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/tensorflow_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/time_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/urllib_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/zipfile_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/numy_cheat_sheet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/regular_expression_keys.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/set_methods.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/string_module.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/Automobile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/CardioGoodFitness - Descriptive Statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/CardioGoodFitness.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/matplotlib_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/matplotlib_seaborn_uta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/seaborn_matpltlib_sample2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/graphs/tips.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/json_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/mongodb/mongodb_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/numpy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/numpy/numpy_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/numpy/statistics_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/pandas/Uber_Data_Analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/pandas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/pandas/pandas_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/pandas/uberdrive.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/regex/Random Email Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/regex/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/regex/regex_sample2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/regex/regular_expression_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/honeyproduction.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/sample_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oops/class_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/class_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/for_loop_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/for_loop_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/deque_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/deque_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/dictionary_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/dictionary_sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samples/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/lamda_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/lamda_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/list_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/list_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/input_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/input_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/set_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/set_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/string_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/string_module.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +91,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aiml/11model_selection" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/samples/graphs" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -63,20 +103,23 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\01upper_confidence_bound" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\regression" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\11model_selection" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\10dimension_reduction\03kernel_pca" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\10dimension_reduction\02linear_discriminant_analysis" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\10dimension_reduction\01principal_component_analysis" />
-      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\09convolutional_neural_network" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\samples\graphs" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\samples\pandas" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\samples\regex" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\temp" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\notes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\samples\regex" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\libraries" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\samples\numpy" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo" />
+      <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\06reinforcement_learning\01upper_confidence_bound" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.class_example">
-    <configuration name="class_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.CardioGoodFitness - Descriptive Statistics">
+    <configuration name="CardioGoodFitness - Descriptive Statistics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/class_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/graphs/CardioGoodFitness - Descriptive Statistics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="for_loop_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Uber_Data_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/for_loop_exercises.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/pandas/Uber_Data_Analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matplotlib_basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/graphs/matplotlib_basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lamda_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matplotlib_seaborn_uta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/lamda_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/graphs/matplotlib_seaborn_uta.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mongodb_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +211,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/mongodb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/list_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/mongodb/mongodb_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,13 +224,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.CardioGoodFitness - Descriptive Statistics" />
+      <item itemvalue="Python.Uber_Data_Analysis" />
+      <item itemvalue="Python.matplotlib_basics" />
+      <item itemvalue="Python.matplotlib_seaborn_uta" />
+      <item itemvalue="Python.mongodb_sample" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.class_example" />
-        <item itemvalue="Python.lamda_sample" />
-        <item itemvalue="Python.functions" />
-        <item itemvalue="Python.for_loop_exercises" />
-        <item itemvalue="Python.list_sample" />
+        <item itemvalue="Python.CardioGoodFitness - Descriptive Statistics" />
+        <item itemvalue="Python.matplotlib_seaborn_uta" />
+        <item itemvalue="Python.Uber_Data_Analysis" />
+        <item itemvalue="Python.mongodb_sample" />
+        <item itemvalue="Python.matplotlib_basics" />
       </list>
     </recent_temporary>
   </component>
@@ -221,75 +271,92 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" key="#Notifications/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591539322197" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591538114518">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596730503123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591538114518" />
-    <state width="1899" height="245" key="GridCell.Tab.0.bottom" timestamp="1594246104592">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1596730503123" />
+    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596053013411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1596053013411" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596053598861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1596053598861" />
+    <state width="1882" height="238" key="GridCell.Tab.0.bottom" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.0.bottom/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="117" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.bottom/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.0.center" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.0.center" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.0.center/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="117" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.center/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.0.left" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.0.left" timestamp="1597446257738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590455762323" />
-    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.0.left/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257738" />
+    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="117" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.left/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.0.right" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.0.right" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590455762324" />
-    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.0.right/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="117" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592750792278" />
     <state width="1899" height="196" key="GridCell.Tab.0.right/1920.160.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590702681651" />
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.1.bottom" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.1.bottom/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="141" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.center" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.1.center" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.1.center/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="141" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.left" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.1.left" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.1.left/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="141" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state width="1899" height="245" key="GridCell.Tab.1.right" timestamp="1594246104592">
+    <state width="1882" height="238" key="GridCell.Tab.1.right" timestamp="1597446257739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1882" height="238" key="GridCell.Tab.1.right/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597446257739" />
+    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597073720100" />
     <state width="1259" height="141" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592144456489" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1593532545169">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597417083583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593532545169" />
+    <state x="461" y="165" key="SettingsEditor/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597417083583" />
+    <state x="461" y="165" key="SettingsEditor/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1595699239040" />
     <state x="2204" y="122" key="SettingsEditor/1920.122.1280.693/0.0.1920.1040@1920.122.1280.693" timestamp="1592825294735" />
     <state width="512" height="446" key="SwitcherDM" timestamp="1591735348127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="512" height="446" key="SwitcherDM/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1591735348127" />
-    <state x="667" y="73" width="585" height="894" key="find.popup" timestamp="1590414497330">
+    <state x="667" y="73" width="585" height="894" key="find.popup" timestamp="1596053051278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="73" width="585" height="894" key="find.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1590414497330" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1593985382987">
+    <state x="667" y="73" width="585" height="894" key="find.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1596053051278" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1595886294313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593985382987" />
+    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1595886294313" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,6 +465,117 @@
           <url>file://$PROJECT_DIR$/samples/lamda_sample.py</url>
           <line>9</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/string_module.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aiml/08artificial_neural_network/artificial_neural_network.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/pandas/pandas_sample.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/libraries/sys_sample.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/regex/regular_expression_sample.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/graphs/seaborn_matpltlib_sample2.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/graphs/matplotlib_seaborn_uta.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/set_sample.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/pandas/Uber_Data_Analysis.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/deque_sample.py</url>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/exception_handling_examples.py</url>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/file_sample.py</url>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/functions.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/general_samples.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/lamda_sample.py</url>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/list_sample.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/set_sample.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/string_module.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/tuple_sample.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/numpy/numpy_sample.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oops/class_example.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/graphs/matplotlib_seaborn_uta.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/samples/graphs/CardioGoodFitness - Descriptive Statistics.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -11,6 +11,8 @@ str1='test_string'
 print(str1.lower())
 print(str1.upper())
 
+print(str1.split('_'))
+
 str2='''line 1
 line 2 \"testquote\"
 line 3'''
@@ -26,3 +28,13 @@ print('{} {} {}: {}'.format('my', 'name', 'is','Ji'))
 
 str2 = input('Enter a text:')
 print('You entered '+str2.upper())
+
+a = "Hello, World!"
+print(a[1])
+
+txt = "My name is John, and I am {}"
+txt1=txt.format(36)
+print(txt1)
+
+myorder = "I have a {carname}, it is a {model}."
+print(myorder.format(carname = "Ford", model = "Mustang"))
