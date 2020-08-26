@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1ec895-acb3-4a48-9baa-af10939e604f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/samples/basics1.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/basics1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA_Part1_Basic_Statistics_Exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA_Part1_Basic_Statistics_Exploration.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +177,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.class_example" />
+      <item itemvalue="Python.for_loop_exercises" />
+      <item itemvalue="Python.functions" />
+      <item itemvalue="Python.lamda_sample" />
+      <item itemvalue="Python.list_sample" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.class_example" />
