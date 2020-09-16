@@ -33,6 +33,7 @@ print(df3.mean())
 print(df3.min())
 print('df3[1]:')
 print(df3[1])
+df3.set_index()
 
 
 def testfun(s):

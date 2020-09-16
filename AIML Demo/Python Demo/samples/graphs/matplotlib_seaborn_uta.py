@@ -13,7 +13,7 @@ auto.hist()
 
 # The most convenient way to take a quick look at a univariate distribution in seaborn is the distplot() function. By default, this will draw a histogram and fit a kernel density estimate (KDE).
 chart1 = sns.distplot(auto['highway_mpg']);
-plt.show(chart1)
+plt.show()
 
 # without the kde curve
 chart1 = sns.distplot(auto['highway_mpg'], kde=False);

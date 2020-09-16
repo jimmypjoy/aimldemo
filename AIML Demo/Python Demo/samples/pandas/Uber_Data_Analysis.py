@@ -3,6 +3,7 @@ import pandas as pd
 
 # Read the Data
 df = pd.read_csv('uberdrive.csv')
+print(df.iloc[1:3, ].head())
 
 print(df.head(3))
 print(df.tail(3))
