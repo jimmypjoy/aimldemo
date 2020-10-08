@@ -1,3 +1,19 @@
+import math
+
+print(help(math))
+value = 4.35
+print(math.floor(value))
+print(math.ceil(value))
+print(round(value))
+print(math.pi)
+print(math.e)
+print(math.log(math.e))
+print(math.log(10))
+print(math.sin(10))
+print(math.radians(180))
+
+
+
 def print_squares_of_numbers_upto(n):
     for i in range(1,n+1):
         print(i*i)

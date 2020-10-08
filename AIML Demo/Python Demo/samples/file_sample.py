@@ -1,3 +1,5 @@
+import os
+
 file=open('C:/gitworkspace/aimldemo/AIML Demo/Python Demo/inputs/sample_input.txt')
 print(file.read())
 print(file.closed)
@@ -11,3 +13,6 @@ with open('C:/gitworkspace/aimldemo/AIML Demo/Python Demo/inputs/sample_input.tx
 with open('C:/gitworkspace/aimldemo/AIML Demo/Python Demo/inputs/sample_input.txt','a') as the_file:
     the_file.write('\n')
     the_file.write('New line from program')
+
+print(os.getcwd())
+print(os.listdir())

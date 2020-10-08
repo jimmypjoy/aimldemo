@@ -1,5 +1,11 @@
 from builtins import print
 
+
+class Sample:
+    pass
+x = Sample()
+print(type(x))
+
 class MyClass:
   x = 5
 
@@ -28,6 +34,8 @@ class Book:
 
     def __repr__(self):
         return repr((self.name, self.copies))
+    def __str__(self):
+        return 'Class named Book'
 
     def increase_copies(self, how_much):
         self.copies += how_much
@@ -38,9 +46,10 @@ class Book:
     def test_method(self):
         print('##### inside test method####')
 
-
 book1 = Book('Mastering Spring 5.0', 200)
 book1.increase_copies(50)
+
+print(book1)
 
 book2 = Book('Mastering Python 3', 15)
 book2.decrease_copies(5)

@@ -33,3 +33,18 @@ def greet_me(**kwargs):
         print("{0} = {1}".format(key, value))
 
 greet_me(name="n1",name2="n2")
+
+#*args
+def myfunc(*args):
+    return sum(args)*.05
+print(myfunc(40,60,20))
+
+#**kwargs
+def myfunc(**kwargs):
+    if 'fruit' in kwargs:
+        print(
+            f"My favorite fruit is {kwargs['fruit']}")  # review String Formatting and f-strings if this syntax is unfamiliar
+    else:
+        print("I don't like fruit")
+
+myfunc(fruit='pineapple')

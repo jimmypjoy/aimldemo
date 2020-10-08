@@ -1,3 +1,4 @@
+from collections import Counter
 
 marks = [23,56,67]
 marks.append(76)
@@ -15,8 +16,10 @@ print("#####")
 for mark in marks:
     print(mark)
 print("#####")
-animals = ['Cat', 'Dog','Elephant']
+animals = ['Cat', 'Dog','Elephant', 'Dog']
 animals.append('Fish')
+#counter example
+print(Counter(animals))
 print(animals)
 animals.pop()
 print(animals)
