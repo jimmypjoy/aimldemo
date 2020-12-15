@@ -1,4 +1,4 @@
-print('Enters a string:')
+print('Enter a string:')
 str1= input()
 print('You entered:{}'.format(str1))
 

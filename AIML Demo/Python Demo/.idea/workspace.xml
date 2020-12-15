@@ -20,27 +20,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1ec895-acb3-4a48-9baa-af10939e604f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python Demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/01 data processing/Uber_Data_Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/01 data processing/Uber_Data_Analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/Logistic Regression - Hands On.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/Logistic Regression - Hands On.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/for_loop_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/for_loop_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/input_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/input_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/01 data processing/EDA - Data_Preprocessing_Missing_Values_and_Outliers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/01 data processing/EDA - Data_Preprocessing_Missing_Values_and_Outliers.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/02 regression/LinearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/02 regression/LinearRegression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/02 regression/PE_Linear_Regression_Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/02 regression/PE_Linear_Regression_Solution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/02 regression/Session_CaseStudy_Linear_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/02 regression/Session_CaseStudy_Linear_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/Log_ROC.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/Log_ROC.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/M1W2_PE_LogisticRegression_withsolution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/M1W2_PE_LogisticRegression_withsolution.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/MLS_W2_Logistic_Reg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/MLS_W2_Logistic_Reg.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/Case study- DecisionTree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/Case study- DecisionTree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/Project SUL- Bank Loan_solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/03 Logistics Regression/Project SUL- Bank Loan_solution.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/Decision Tree - Hands On .ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/Decision Tree - Hands On .ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/DecisionTreeRegressor_caseStudy_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/DecisionTreeRegressor_caseStudy_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/PE -DT_Withsolution-1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Decision Trees/PE -DT_Withsolution-1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Ensemble Techniques/Case study - ET .ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Ensemble Techniques/Case study - ET .ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Ensemble Techniques/Ensemble Techniques - Hands On.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Ensemble Techniques/Ensemble Techniques - Hands On.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Ensemble Techniques/PE -Ensemble Techniques_WithSolution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aiml/04 Ensemble Techniques/PE -Ensemble Techniques_WithSolution.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 1 AIML Basics/MovieLens Project Questions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 1 AIML Basics/MovieLens Project Questions.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 2 Supervised Learning/Personal Loan Campaign Modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 2 Supervised Learning/Personal Loan Campaign Modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 3 Ensemble Techniques/.ipynb_checkpoints/Project Ensemble Techniques-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 3 Ensemble Techniques/.ipynb_checkpoints/Project Ensemble Techniques-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 3 Ensemble Techniques/Project Ensemble Techniques.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 3 Ensemble Techniques/Project Ensemble Techniques.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/aimlcourse/Project 4 Feature Engineering/Project Feature Engineering - Copy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/pandas/df8.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/pandas/df8.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/pandas/pandas_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/pandas/pandas_example.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA - Part2_Univariate_and_Multivariate_Analysis_Encoding_Normalization_Scaling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA - Part2_Univariate_and_Multivariate_Analysis_Encoding_Normalization_Scaling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA-Practice Exercise Answers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA-Practice Exercise Answers.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA_Part1_Basic_Statistics_Exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/statistics/EDA_Part1_Basic_Statistics_Exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/visualization/Practice Exercise Solution Notebook - Visualizations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/visualization/Practice Exercise Solution Notebook - Visualizations.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/0_Check_Environment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/1 First Deep Learning Model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/2 Data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/3 Machine Learning.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/4 Deep Learning Intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/5 Gradient Descent.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/6 Convolutional Neural Networks.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/8 Recurrent Neural Networks.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/course/9 Improving performance.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/HR_comma_sep.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/banknotes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/banknotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/cansim-0800020-eng-6674700030567901031.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/diabetes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/generator/class 0/squirrel.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/housing-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/international-airline-passengers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/iss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/sms.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/titanic-train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/us_retail_sales.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/user_visit_duration.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/weight-height.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/data/wines.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/environment-gpu.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/floyd_requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/2 Data exploration Exercises Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/3 Machine Learning Exercises Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/4 Deep Learning Intro Exercises Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/5 Gradient Descent Exercises Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/6 Convolutional Neural Networks Exercises Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/8 Recurrent Neural Networks Exercises Solutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/solutions/9 Improving performance Exercises Solutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/temp/zero_to_deep_learning_video-master/tests/test_nb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/tensorflow/keras_sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/tensorflow/keras_sample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/tensorflow/tensorflow_sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/tensorflow/tensorflow_sample.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jupyterworkapce/visualization/Visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../jupyterworkapce/visualization/Visualization.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +133,29 @@
       <recent name="C:\gitworkspace\aimldemo\AIML Demo\Python Demo\aiml\regression" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_preprocessing_tools">
-    <configuration name="basics1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.artificial_neural_network">
+    <configuration name="artificial_neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/08artificial_neural_network" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/08artificial_neural_network/artificial_neural_network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="collections_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +167,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/basics1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/collections_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="debugger_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="datetime_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +209,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/debugger_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/datetime_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="k_means_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,32 +226,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiml/04clustering/01k_means_clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/random_sample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tensorflow_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libraries" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libraries/tensorflow_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiml/04clustering/01k_means_clustering/k_means_clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,19 +240,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.debugger_sample" />
-      <item itemvalue="Python.random_sample" />
-      <item itemvalue="Python.tensorflow_sample" />
-      <item itemvalue="Python.basics1" />
       <item itemvalue="Python.data_preprocessing_tools" />
+      <item itemvalue="Python.collections_sample" />
+      <item itemvalue="Python.datetime_sample" />
+      <item itemvalue="Python.k_means_clustering" />
+      <item itemvalue="Python.artificial_neural_network" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.artificial_neural_network" />
         <item itemvalue="Python.data_preprocessing_tools" />
-        <item itemvalue="Python.basics1" />
-        <item itemvalue="Python.tensorflow_sample" />
-        <item itemvalue="Python.debugger_sample" />
-        <item itemvalue="Python.random_sample" />
+        <item itemvalue="Python.k_means_clustering" />
+        <item itemvalue="Python.datetime_sample" />
+        <item itemvalue="Python.collections_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -240,67 +283,59 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604953810430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="321" key="#com.intellij.fileTypes.FileTypeChooser/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1604953810430" />
     <state x="351" y="0" key="#tensorflow_sample" timestamp="1599596146351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="351" y="0" key="#tensorflow_sample/0.0.1280.680@0.0.1280.680" timestamp="1599596146351" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602274711246">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1608071995458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599596834906" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1602274711246" />
-    <state width="1899" height="245" key="GridCell.Tab.0.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602274711246">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608071995458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1608071995458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599596834906" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1602274711246" />
-    <state width="1899" height="245" key="GridCell.Tab.0.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602274711246">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608071995458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1608071995458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599596834906" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1602274711246" />
-    <state width="1899" height="245" key="GridCell.Tab.0.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602274711246">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608071995458" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1608071995458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1259" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599596834906" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1602274711246" />
-    <state width="1899" height="245" key="GridCell.Tab.0.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608071995458" />
     <state width="1899" height="238" key="GridCell.Tab.1.bottom" timestamp="1600874270408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="238" key="GridCell.Tab.1.bottom/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600874270408" />
-    <state width="1899" height="245" key="GridCell.Tab.1.bottom/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1899" height="238" key="GridCell.Tab.1.center" timestamp="1600874270408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="238" key="GridCell.Tab.1.center/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600874270408" />
-    <state width="1899" height="245" key="GridCell.Tab.1.center/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1899" height="238" key="GridCell.Tab.1.left" timestamp="1600874270408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="238" key="GridCell.Tab.1.left/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600874270408" />
-    <state width="1899" height="245" key="GridCell.Tab.1.left/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
     <state width="1899" height="238" key="GridCell.Tab.1.right" timestamp="1600874270408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="238" key="GridCell.Tab.1.right/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1600874270408" />
-    <state width="1899" height="245" key="GridCell.Tab.1.right/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1594246104592" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602274682419">
+    <state x="364" y="329" key="SettingsEditor" timestamp="1605562791455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599596822306" />
-    <state x="461" y="165" key="SettingsEditor/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1602274682419" />
+    <state x="364" y="329" key="SettingsEditor/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1605562791455" />
     <state x="667" y="73" width="585" height="894" key="find.popup" timestamp="1601747979035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="73" width="585" height="894" key="find.popup/1920.-107.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1601747979035" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1593985382987">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/1920.122.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1593985382987" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
