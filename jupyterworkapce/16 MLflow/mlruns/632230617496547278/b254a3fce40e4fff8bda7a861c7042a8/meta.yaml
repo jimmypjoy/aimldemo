@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/gitworkspace/aimldemo/jupyterworkapce/16%20MLflow/mlruns/632230617496547278/b254a3fce40e4fff8bda7a861c7042a8/artifacts
+end_time: 1725918798560
+entry_point_name: ''
+experiment_id: '632230617496547278'
+lifecycle_stage: active
+run_id: b254a3fce40e4fff8bda7a861c7042a8
+run_name: glamorous-doe-553
+run_uuid: b254a3fce40e4fff8bda7a861c7042a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725918793496
+status: 3
+tags: []
+user_id: jimmy

@@ -4,9 +4,11 @@
         "level",
         "topic"
     ],
-    "input_types": {},
+    "optional_variables": [],
     "output_parser": null,
     "partial_variables": {},
+    "metadata": null,
+    "tags": null,
     "template": "Tell me a fact about {topic} for a student {level} level.",
     "template_format": "f-string",
     "validate_template": false,
