@@ -13,6 +13,8 @@
       gtag('js', new Date());
       gtag('config', 'G-TF35YF9CVH');
     </script>
+    <!-- Plausible.io analytics -->
+    <script defer data-domain="python.org" src="https://plausible.io/js/script.js"></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,8 +41,9 @@
     ></script>
     <script src="/static/js/libs/modernizr.js"></script>
 
-    <link href="/static/stylesheets/style.2135bffe4dde.css" rel="stylesheet" type="text/css" media="all" title="default" />
-    <link href="/static/stylesheets/mq.f9187444a4a1.css" rel="stylesheet" type="text/css" media="not print, braille, embossed, speech, tty" />
+    <link href="/static/stylesheets/style.08a078d0aa02.css" rel="stylesheet" type="text/css" media="all" title="default" />
+    <link href="/static/stylesheets/mq.31ede2afc427.css" rel="stylesheet" type="text/css" media="not print, braille, embossed, speech, tty" />
+    <link href="/static/stylesheets/no-mq.bf0c425cdb73.css" rel="stylesheet" type="text/css" media="screen" />
     
 
     <!--[if (lte IE 8)&(!IEMobile)]>
@@ -59,7 +62,7 @@
     <link rel="apple-touch-icon" href="/static/apple-touch-icon-precomposed.png">
 
     
-    <meta name="msapplication-TileImage" content="/static/metro-icon-144x144-precomposed.png"><!-- white shape -->
+    <meta name="msapplication-TileImage" content="/static/metro-icon-144x144.png"><!-- white shape -->
     <meta name="msapplication-TileColor" content="#3673a5"><!-- python blue -->
     <meta name="msapplication-navbutton-color" content="#3673a5">
 
@@ -82,13 +85,15 @@
     <link rel="author" href="/humans.txt">
 
     <link rel="alternate" type="application/rss+xml" title="Python Enhancement Proposals"
-          href="https://www.python.org/dev/peps/peps.rss/">
+          href="https://peps.python.org/peps.rss">
     <link rel="alternate" type="application/rss+xml" title="Python Job Opportunities"
           href="https://www.python.org/jobs/feed/rss/">
     <link rel="alternate" type="application/rss+xml" title="Python Software Foundation News"
           href="https://feeds.feedburner.com/PythonSoftwareFoundationNews">
     <link rel="alternate" type="application/rss+xml" title="Python Insider"
           href="https://feeds.feedburner.com/PythonInsider">
+   <link rel="alternate" type="application/rss+xml" title="Python Releases"
+         href="https://www.python.org/downloads/feed.rss">
 
     
 
@@ -178,7 +183,7 @@
     </li>
     
     <li class="shop-meta ">
-        <a href="/community-landing/"  >Community</a>
+        <a href="/community/"  >Community</a>
     </li>
     
 </ul>
@@ -236,9 +241,10 @@
                                 <li class="tier-1 last" aria-haspopup="true">
                                     <a href="#" class="action-trigger">Socialize</a>
                                     <ul class="subnav menu">
-                                        <li class="tier-2 element-1" role="treeitem"><a href="https://www.facebook.com/pythonlang?fref=ts"><span aria-hidden="true" class="icon-facebook"></span>Facebook</a></li>
-                                        <li class="tier-2 element-2" role="treeitem"><a href="https://twitter.com/ThePSF"><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
+                                        <li class="tier-2 element-1" role="treeitem"><a href="https://www.linkedin.com/company/python-software-foundation/"><i aria-hidden="true" class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+                                        <li class="tier-2 element-2" role="treeitem"><a href="https://fosstodon.org/@ThePSF"><span aria-hidden="true" class="icon-mastodon"></span>Mastodon</a></li>
                                         <li class="tier-2 element-3" role="treeitem"><a href="/community/irc/"><span aria-hidden="true" class="icon-freenode"></span>Chat on IRC</a></li>
+                                        <li class="tier-2 element-4" role="treeitem"><a href="https://twitter.com/ThePSF"><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -317,15 +323,15 @@
     
         <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
     
-        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#x27;s Guide</a></li>
     
-        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#x27;s Guide</a></li>
     
         <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
     
         <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
     
-        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+        <li class="tier-2 element-7" role="treeitem"><a href="https://peps.python.org" title="">PEP Index</a></li>
     
         <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
     
@@ -573,7 +579,14 @@ Python</span>
 
                     
 
-                
+                <div class="notification-bar notification-bar--survey" style="background-color: #ffdf76; color: #664e04; border-color: #004d7a; text-align: center; background-color: #004d7a; color: #fff; padding: 10px; margin: .5em; position: relative; width: 95%; background-color: #ffdf76; color: #664e04; border-color: #004d7a; border-radius: 1em;">
+  <span class="notification-bar__icon">
+    <i class="fa fa-chart-line" aria-hidden="true"></i>
+  </span>
+  <span class="notification-bar__message">Join the official Python Developers Survey 2024 and have a chance to win a prize &nbsp;&nbsp;<a class="button button--dark button--small button--primary" style="color: #606060; border-color: #006dad; background-color: #006dad;" href="https://survey.alchemer.com/s3/8009809/python-developers-survey-2024"  target="_blank" rel="noopener">Take the 2024 survey!</a>
+   </span>
+</div>
+
 
                 <div class="row">
 
@@ -586,7 +599,7 @@ Python</span>
                     <div class="small-widget download-widget">
                         <h2 class="widget-title"><span aria-hidden="true" class="icon-download"></span>Download</h2>
 <p>Python source code and installers are available for download for all versions!</p>
-<p>Latest: <a href="/downloads/release/python-3115/">Python 3.11.5</a></p>
+<p>Latest: <a href="/downloads/release/python-3130/">Python 3.13.0</a></p>
                     </div>
 
                     <div class="small-widget documentation-widget">
@@ -616,24 +629,24 @@ Python</span>
                                 
                                 
                                 <li>
-<time datetime="2023-09-06T11:05:00.000002+00:00"><span class="say-no-more">2023-</span>09-06</time>
- <a href="https://pythoninsider.blogspot.com/2023/09/python-3120-release-candidate-2-now.html">Python 3.12.0 release candidate 2 now available</a></li>
+<time datetime="2024-11-01T19:03:00.000004+00:00"><span class="say-no-more">2024-</span>11-01</time>
+ <a href="https://pyfound.blogspot.com/2024/11/pycon-us-2025-kicks-off-website-cfp-and.html">PyCon US 2025 Kicks Off: Website, CfP, and Sponsorship Now Open!</a></li>
                                 
                                 <li>
-<time datetime="2023-08-29T19:26:00.000001+00:00"><span class="say-no-more">2023-</span>08-29</time>
- <a href="https://pyfound.blogspot.com/2023/08/psf-authorized-as-cna.html">The Python Software Foundation has been authorized by the CVE Program as a CVE Numbering Authority (CNA)</a></li>
+<time datetime="2024-10-24T14:00:00.000003+00:00"><span class="say-no-more">2024-</span>10-24</time>
+ <a href="https://pyfound.blogspot.com/2024/10/announcing-python-software-foundation.html">Announcing Python Software Foundation Fellow Members for Q2 2024! 🎉</a></li>
                                 
                                 <li>
-<time datetime="2023-08-24T20:56:00.000003+00:00"><span class="say-no-more">2023-</span>08-24</time>
- <a href="https://pythoninsider.blogspot.com/2023/08/python-3115-31013-3918-and-3818-is-now.html">Python 3.11.5, 3.10.13, 3.9.18, and 3.8.18 is now available</a></li>
+<time datetime="2024-10-15T23:31:00.000001+00:00"><span class="say-no-more">2024-</span>10-15</time>
+ <a href="https://pythoninsider.blogspot.com/2024/10/python-3140-alpha-1-is-now-available.html">Python 3.14.0 alpha 1 is now available</a></li>
                                 
                                 <li>
-<time datetime="2023-08-06T13:11:00.000006+00:00"><span class="say-no-more">2023-</span>08-06</time>
- <a href="https://pythoninsider.blogspot.com/2023/08/python-3120-release-candidate-1-released.html">Python 3.12.0 release candidate 1 released</a></li>
+<time datetime="2024-10-08T14:44:16.000001+00:00"><span class="say-no-more">2024-</span>10-08</time>
+ <a href="https://mailchi.mp/python/python-software-foundation-july-2024-newsletter-19873215">PSF Q3 Highlights: Board news, development updates and more!</a></li>
                                 
                                 <li>
-<time datetime="2023-08-04T16:32:00.000004+00:00"><span class="say-no-more">2023-</span>08-04</time>
- <a href="https://pyfound.blogspot.com/2023/08/announcing-our-new-pypi-safety-security.html">Announcing Our New PyPI Safety &amp; Security Engineer!</a></li>
+<time datetime="2024-10-08T13:44:00.000001+00:00"><span class="say-no-more">2024-</span>10-08</time>
+ <a href="https://pyfound.blogspot.com/2024/10/join-python-developers-survey-2024.html">Join the Python Developers Survey 2024: Share your experience!</a></li>
                                 
                             </ul>
                         </div><!-- end .shrubbery -->
@@ -652,32 +665,32 @@ Python</span>
                                 
                                 
                                 <li>
-<time datetime="2023-09-14T00:00:00+00:00"><span class="say-no-more">2023-</span>09-14</time>
- <a href="/events/python-events/1565/">PyData Amsterdam 2023</a></li>
+<time datetime="2024-11-13T18:30:00+00:00"><span class="say-no-more">2024-</span>11-13</time>
+ <a href="/events/python-user-group/1863/">Python Ireland Monthly Meetup</a></li>
                                 
                                 
                                 
                                 <li>
-<time datetime="2023-09-15T00:00:00+00:00"><span class="say-no-more">2023-</span>09-15</time>
- <a href="/events/python-events/1552/">PyCon CZ 2023</a></li>
+<time datetime="2024-11-14T00:00:00+00:00"><span class="say-no-more">2024-</span>11-14</time>
+ <a href="/events/python-events/1852/">PyCon Sweden 2024</a></li>
                                 
                                 
                                 
                                 <li>
-<time datetime="2023-09-15T00:00:00+00:00"><span class="say-no-more">2023-</span>09-15</time>
- <a href="/events/python-events/1440/">Kiwi PyCon 2023</a></li>
+<time datetime="2024-11-16T00:00:00+00:00"><span class="say-no-more">2024-</span>11-16</time>
+ <a href="/events/python-events/1861/">PyCon mini Tokai 2024</a></li>
                                 
                                 
                                 
                                 <li>
-<time datetime="2023-09-16T07:00:00+00:00"><span class="say-no-more">2023-</span>09-16</time>
- <a href="/events/python-user-group/1627/">PyTraining: Getting Started with API Design using Python</a></li>
+<time datetime="2024-11-16T00:00:00+00:00"><span class="say-no-more">2024-</span>11-16</time>
+ <a href="/events/python-events/1771/">PyCon Hong Kong 2024</a></li>
                                 
                                 
                                 
                                 <li>
-<time datetime="2023-09-19T00:00:00+00:00"><span class="say-no-more">2023-</span>09-19</time>
- <a href="/events/python-events/1623/">PyData Seattle: Language Creators Charity Fundraiser</a></li>
+<time datetime="2024-11-16T00:00:00+00:00"><span class="say-no-more">2024-</span>11-16</time>
+ <a href="/events/python-events/1862/">PyCon Ireland 2024</a></li>
                                 
                                 
                             </ul>
@@ -701,18 +714,17 @@ Python</span>
                             <p class="give-me-more"><a href="/success-stories/" title="More Success Stories">More</a></p>
 
                             
-                            <div class="success-story-item" id="success-story-1102">
+                            <div class="success-story-item" id="success-story-932">
 
                             <blockquote>
-                                <a href="/success-stories/deliver-clean-and-safe-code-for-your-python-applications/">&quot;Some of the things [SonarCloud] spots are impressive (probably driven by some introspection and/or type inference), not just the simple pattern matching that I am used to in most of the flake8 ecosystem.&quot;
-- Peter J. A. Cock - maintainer of BioPython</a>
+                                <a href="/success-stories/abridging-clinical-conversations-using-python/">Python powers major aspects of Abridge’s ML lifecycle, including data annotation,  research and experimentation, and ML model deployment to production.</a>
                             </blockquote>
 
                             <table cellpadding="0" cellspacing="0" border="0" width="100%" class="quote-from">
                                 <tbody>
                                     <tr>
                                         
-                                        <td><p><a href="/success-stories/deliver-clean-and-safe-code-for-your-python-applications/">Deliver Clean and Safe Code for Your Python Applications</a> <em>by Kirti Joshi, Nicolas Bontoux</em></p></td>
+                                        <td><p><a href="/success-stories/abridging-clinical-conversations-using-python/">Abridging clinical conversations using Python</a> <em>by Nimshi Venkat and Sandeep Konam</em></p></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -732,7 +744,7 @@ Python</span>
     <li><b>Web Development</b>:
         <span class="tag-wrapper"><a class="tag" href="http://www.djangoproject.com/">Django</a>, <a class="tag" href="http://www.pylonsproject.org/">Pyramid</a>, <a class="tag" href="http://bottlepy.org">Bottle</a>, <a class="tag" href="http://tornadoweb.org">Tornado</a>, <a href="http://flask.pocoo.org/" class="tag">Flask</a>, <a class="tag" href="http://www.web2py.com/">web2py</a></span></li>
     <li><b>GUI Development</b>:
-        <span class="tag-wrapper"><a class="tag" href="http://wiki.python.org/moin/TkInter">tkInter</a>, <a class="tag" href="https://wiki.gnome.org/Projects/PyGObject">PyGObject</a>, <a class="tag" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a>, <a class="tag" href="https://wiki.qt.io/PySide">PySide</a>, <a class="tag" href="https://kivy.org/">Kivy</a>, <a class="tag" href="http://www.wxpython.org/">wxPython</a></span></li>
+        <span class="tag-wrapper"><a class="tag" href="http://wiki.python.org/moin/TkInter">tkInter</a>, <a class="tag" href="https://wiki.gnome.org/Projects/PyGObject">PyGObject</a>, <a class="tag" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a>, <a class="tag" href="https://wiki.qt.io/PySide">PySide</a>, <a class="tag" href="https://kivy.org/">Kivy</a>, <a class="tag" href="http://www.wxpython.org/">wxPython</a>, <a class="tag" href="https://dearpygui.readthedocs.io/en/latest/">DearPyGui</a></span></li>
     <li><b>Scientific and Numeric</b>:
         <span class="tag-wrapper">
 <a class="tag" href="http://www.scipy.org">SciPy</a>, <a class="tag" href="http://pandas.pydata.org/">Pandas</a>, <a href="http://ipython.org" class="tag">IPython</a></span></li>
@@ -744,19 +756,6 @@ Python</span>
                         </div><!-- end .shrubbery -->
                     </div>
 
-                </div>
-
-                
-                <div class="pep-widget">
-
-                    <h2 class="widget-title">
-                        <span class="prompt">&gt;&gt;&gt;</span> <a href="/dev/peps/">Python Enhancement Proposals<span class="say-no-more"> (PEPs)</span></a>: The future of Python<span class="say-no-more"> is discussed here.</span>
-                        <a aria-hidden="true" class="rss-link" href="/dev/peps/peps.rss"><span class="icon-feed"></span> RSS</a>
-                    </h2>
-
-
-                    
-                    
                 </div>
 
                                 <div class="psf-widget">
@@ -860,15 +859,15 @@ Python</span>
     
         <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
     
-        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#x27;s Guide</a></li>
     
-        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#x27;s Guide</a></li>
     
         <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
     
         <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
     
-        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+        <li class="tier-2 element-7" role="treeitem"><a href="https://peps.python.org" title="">PEP Index</a></li>
     
         <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
     
@@ -994,9 +993,9 @@ Python</span>
 
 <ul class="subnav menu">
     
-        <li class="tier-2 element-1" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+        <li class="tier-2 element-1" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#x27;s Guide</a></li>
     
-        <li class="tier-2 element-2" role="treeitem"><a href="https://bugs.python.org/" title="">Issue Tracker</a></li>
+        <li class="tier-2 element-2" role="treeitem"><a href="https://github.com/python/cpython/issues" title="">Issue Tracker</a></li>
     
         <li class="tier-2 element-3" role="treeitem"><a href="https://mail.python.org/mailman/listinfo/python-dev" title="">python-dev list</a></li>
     
@@ -1032,10 +1031,10 @@ Python</span>
 
                     <div class="copyright">
                         <p><small>
-                            <span class="pre">Copyright &copy;2001-2023.</span>
+                            <span class="pre">Copyright &copy;2001-2024.</span>
                             &nbsp;<span class="pre"><a href="/psf-landing/">Python Software Foundation</a></span>
                             &nbsp;<span class="pre"><a href="/about/legal/">Legal Statements</a></span>
-                            &nbsp;<span class="pre"><a href="/privacy/">Privacy Policy</a></span>
+                            &nbsp;<span class="pre"><a href="https://policies.python.org/python.org/Privacy-Notice/">Privacy Notice</a></span>
                             <!--&nbsp;<span class="pre"><a href="/psf/community-infrastructure">Powered by PSF Community Infrastructure</a></span>-->
                         </small></p>
                     </div>
