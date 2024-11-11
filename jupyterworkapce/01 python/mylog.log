@@ -48,3 +48,9 @@ CRITICAL:root:Critical
 ERROR:root:Error
 WARNING:root:Warning
 INFO:root:Info
+CRITICAL:root:Critical
+ERROR:root:Error
+WARNING:root:Warning
+INFO:root:Info
+INFO:Test LOGGER:Sample loging message
+INFO:Test LOGGER:Sample loging message
