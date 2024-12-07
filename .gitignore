@@ -26,3 +26,4 @@ jupyterworkapce/11genAI/local_bert_base_uncased/tokenizer.json
 jupyterworkapce/11genAI/local_bert_base_uncased/tokenizer_config.json
 jupyterworkapce/11genAI/local_bert_base_uncased/vocab.txt
 /jupyterworkapce/11genAI/chroma_db
+/jupyterworkapce/__pycache__
