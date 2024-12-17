@@ -1,0 +1,11 @@
+[1m.\Test.py[m[36m:[m3[36m:[m4[36m:[m [1m[31mE999[m IndentationError: unexpected indent
+[1m.\pytest\addition.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mE302[m expected 2 blank lines, found 1
+[1m.\pytest\addition.py[m[36m:[m8[36m:[m17[36m:[m [1m[31mE231[m missing whitespace after ','
+[1m.\pytest\addition.py[m[36m:[m10[36m:[m15[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\pytest\addition_pytest.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mE302[m expected 2 blank lines, found 1
+[1m.\pytest\addition_pytest.py[m[36m:[m15[36m:[m1[36m:[m [1m[31mE302[m expected 2 blank lines, found 1
+[1m.\pytest\addition_pytest.py[m[36m:[m16[36m:[m33[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\pytest\math_service.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mE302[m expected 2 blank lines, found 1
+[1m.\pytest\math_service_mockito_test.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mE302[m expected 2 blank lines, found 1
+[1m.\pytest\math_service_mockito_test.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\pytest\math_service_mockito_test.py[m[36m:[m23[36m:[m1[36m:[m [1m[31mE305[m expected 2 blank lines after class or function definition, found 1

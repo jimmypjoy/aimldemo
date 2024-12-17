@@ -1,0 +1,6 @@
+projectKey=Python_Basics
+serverUrl=http://localhost:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9000/dashboard?id=Python_Basics
+ceTaskId=82ab2cf5-8581-4642-950a-dfa40557b5ce
+ceTaskUrl=http://localhost:9000/api/ce/task?id=82ab2cf5-8581-4642-950a-dfa40557b5ce
