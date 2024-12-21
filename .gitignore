@@ -27,3 +27,16 @@ jupyterworkapce/11genAI/local_bert_base_uncased/tokenizer_config.json
 jupyterworkapce/11genAI/local_bert_base_uncased/vocab.txt
 /jupyterworkapce/11genAI/chroma_db
 /jupyterworkapce/__pycache__
+.ipynb_checkpoints/
+.spyproject/
+AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups/workspace.ini.bak
+AIML Demo/Python Demo/pythonbasics/.spyproject/config/workspace.ini
+AIML Demo/Python Demo/pythonbasics/genai/__pycache__/langchain_dep.cpython-311.pyc
+.spyproject/
+__pycache__/
+bert_downloads/
+book_db/
+chroma_db/
+local_bert_base_uncased/
+reuters21578/
+.ipynb_checkpoints/
