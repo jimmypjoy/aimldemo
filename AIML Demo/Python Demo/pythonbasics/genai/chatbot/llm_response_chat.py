@@ -1,9 +1,7 @@
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_openai import ChatOpenAI
 import os
-from langchain_core.output_parsers import StrOutputParser
+import requests
 
-#os.environ['OPENAI_API_KEY'] = 'xxxx'
+# Setup environment for API key or other configurations
 def setup_environment():
     import sys
     sys.path.append('C:\\gitworkspace\\aimldemo\\jupyterworkapce')
@@ -12,18 +10,35 @@ def setup_environment():
 
 setup_environment()
 
-llm = ChatOpenAI(model_name='gpt-3.5-turbo', temperature=0.7)
-output_parser = StrOutputParser()
-
 def response_from_llm(user_question, chat_history):
-    template_chat = '''
-    You are a helpful assistant, answer the following questions considering the history of the conversation as well:
+    # Convert chat_history to a list of plain strings (content only)
+    serialized_chat_history = [
+        message.content if hasattr(message, 'content') else str(message)
+        for message in chat_history
+    ]
 
-    Chat history: {chat_history}
-    User question: {user_question}
-    '''
+    # Prepare the input data for the REST endpoint
+    payload = {
+        "chathistory": serialized_chat_history,
+        "context": "You are a helpful assistant, answer the following questions considering the history of the conversation as well.",
+        "question": user_question,
+        "answer": ""  # Empty while querying
+    }
 
-    prompt = ChatPromptTemplate.from_template(template_chat)
-    chain = prompt | llm | output_parser
+    # Log the input to the REST endpoint
+    print("Input to Flask REST API:\n", payload)
 
-    return chain.stream({'chat_history': chat_history, 'user_question': user_question})
+    # Make a POST request to the LLM REST endpoint
+    try:
+        response = requests.post("http://127.0.0.1:5000/", json=payload)
+        response.raise_for_status()  # Raise an exception for HTTP errors
+    except requests.exceptions.RequestException as e:
+        print("Error calling Flask REST API:", e)
+        return "An error occurred while communicating with the Flask service."
+
+    # Parse the response
+    response_data = response.json()
+    print("Response from Flask REST API:\n", response_data)
+
+    # Return the answer field from the response
+    return response_data.get("answer", "No answer provided.")

@@ -17,7 +17,7 @@ for message in st.session_state.chat_history:
             st.markdown(message.content)
 
 # User input
-user_input = st.chat_input("How can you help?")
+user_input = st.chat_input("How can I help you?")
 
 if user_input is not None and user_input != '':
     # Append the user's message to the chat history
@@ -29,12 +29,12 @@ if user_input is not None and user_input != '':
     # Placeholder for assistant's response
     with st.chat_message("assistant"):
         placeholder = st.empty()
-        full_response = ""
 
-        # Stream the assistant's response
-        for chunk in response_from_llm(user_input, st.session_state.chat_history):
-            full_response += chunk
-            placeholder.markdown(full_response)
+        # Get the response from the REST API
+        full_response = response_from_llm(user_input, st.session_state.chat_history)
+
+        # Display the full response
+        placeholder.markdown(full_response)
 
         # Append the assistant's message to the chat history
         st.session_state.chat_history.append(AIMessage(content=full_response))
