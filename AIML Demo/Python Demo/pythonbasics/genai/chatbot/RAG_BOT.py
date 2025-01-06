@@ -6,10 +6,17 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
+def setup_environment():
+    import sys
+    sys.path.append('C:\\gitworkspace\\aimldemo\\jupyterworkapce')
+    import stratup_env_setup
+    stratup_env_setup.set_env()
+
+setup_environment()
 
 class RAGBot:
     def __init__(self, pdf_path):
@@ -71,7 +78,7 @@ class RAGBot:
 
 def main():
     # Example usage
-    pdf_path = "path/to/your/document.pdf"
+    pdf_path = "C:\\gitworkspace\\aimldemo\\jupyterworkapce\\11 genAI\\doc_inputs\\falcon-users-guide-2021-09.pdf"
     
     try:
         rag_bot = RAGBot(pdf_path)
@@ -79,7 +86,9 @@ def main():
         # Example queries
         queries = [
             "What is the main topic of the document?",
-            "Can you summarize the key points?"
+            "Can you summarize the key points?",
+            "The first-stage propellant tank walls of the Falcon vehicles are made from what?",
+            "What is teh capital of France?"
         ]
         
         for query in queries:
