@@ -1,8 +1,8 @@
 import streamlit as st
 import fitz  # PyMuPDF
 
-# Function to extract and display a specific page from the PDF
 def display_page(pdf_path, page_number):
+    """Extract and display a specific page from the PDF."""
     try:
         doc = fitz.open(pdf_path)
         if page_number < 0 or page_number >= len(doc):
@@ -15,7 +15,7 @@ def display_page(pdf_path, page_number):
     except Exception as e:
         st.error(f"An error occurred: {e}")
 
-# Main Streamlit app
+
 st.title("PDF Viewer")
 
 # Retrieve query parameters

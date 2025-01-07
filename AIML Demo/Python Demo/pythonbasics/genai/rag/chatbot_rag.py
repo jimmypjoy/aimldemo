@@ -1,75 +1,39 @@
 import fitz  # PyMuPDF
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
-from llm_response_chat_rag import initialize_db, response_from_llm
+from llm_response_chat_rag import initialize_db, response_from_llm, get_sentences_similarity
 import os
+
+# Configurable cosine similarity threshold
+COSINE_SIMILARITY_THRESHOLD = 0.4
 
 st.title("RAG Chatbot")
 
-# Highlight the best matching chunk in the PDF and save it to a file
-def highlight_chunk_and_save(pdf_path, output_path, text_to_highlight, chunk_size=200):
-    """Highlight the best matching chunk in the PDF and save it to a file."""
+def highlight_chunk_with_coordinates(pdf_path, output_path, page_num, coordinates, sentences_with_high_similarity):
+    """Highlight the chunk in yellow and high-similarity sentences in green."""
     doc = fitz.open(pdf_path)
-    highest_similarity = 0
-    best_page_number = None  # To store the page number of the best match
-    best_match_rects = None
+    page = doc.load_page(page_num)
 
-    for page_num in range(len(doc)):
-        page = doc[page_num]
-        page_text = page.get_text()
+    # Highlight the entire chunk in yellow
+    for coord in coordinates:
+        rect = fitz.Rect(*coord)
+        page.add_highlight_annot(rect)
 
-        # Split page text into smaller chunks
-        page_chunks = [page_text[i:i + chunk_size] for i in range(0, len(page_text), chunk_size)]
+    # Highlight high-similarity sentences in green
+    for sentence_coords in sentences_with_high_similarity:
+        rect = fitz.Rect(*sentence_coords)
+        highlight = page.add_highlight_annot(rect)
+        highlight.set_colors(stroke=(0, 1, 0))  # Green color
+        highlight.update()
 
-        # Perform text similarity search using TF-IDF and cosine similarity
-        vectorizer = TfidfVectorizer().fit_transform([text_to_highlight] + page_chunks)
-        similarities = cosine_similarity(vectorizer[0:1], vectorizer[1:]).flatten()
-
-        # Find the chunk with the highest similarity score
-        max_sim_index = similarities.argmax()
-        max_sim = similarities[max_sim_index]
-
-        # Update the best match if this page has a higher similarity score
-        if max_sim > highest_similarity:
-            highest_similarity = max_sim
-            best_page_number = page_num  # Store the page number
-            best_chunk = page_chunks[max_sim_index]
-            best_match_rects = page.search_for(best_chunk)
-
-    # Highlight the best match
-    if best_page_number is not None and best_match_rects:
-        best_page = doc[best_page_number]
-        for rect in best_match_rects:
-            best_page.add_highlight_annot(rect)
-        print(f"[INFO] Added highlights on page {best_page_number + 1} for chunk: {text_to_highlight[:50]}...")
-    else:
-        print(f"[WARNING] No highlights added for: {text_to_highlight}")
-
-    # Save the PDF to the specified output path
-    doc.save(output_path, garbage=4)  # Ensure garbage collection and compression
+    doc.save(output_path, garbage=4)
     doc.close()
 
-    print(f"[INFO] Highlighted PDF saved to: {output_path}")
-
-    return best_page_number  # Return the page number
 
 # Paths
 pdf_path = "C:\\gitworkspace\\aimldemo\\jupyterworkapce\\11 genAI\\doc_inputs\\Form_2287.pdf"
 output_folder = os.path.dirname(__file__)
 highlighted_pdf_path = os.path.join(output_folder, "highlighted_output.pdf")
-
-# Button to download the highlighted PDF
-if os.path.exists(highlighted_pdf_path):
-    with open(highlighted_pdf_path, "rb") as file:
-        st.download_button(
-            label="Response Document Traceback",
-            data=file,
-            file_name="highlighted_output.pdf",
-            mime="application/pdf",
-            key="download-button"
-        )
 
 # Initialize vector DB
 if "db_initialized" not in st.session_state:
@@ -106,12 +70,19 @@ if user_input is not None and user_input.strip():
         # Get response from backend
         top_chunk, metadata, full_response = response_from_llm(user_input, st.session_state.chat_history)
 
+        # Get high-similarity sentences within the chunk
+        sentences_with_high_similarity = get_sentences_similarity(
+            pdf_path, metadata["page"], metadata["coordinates"], full_response, COSINE_SIMILARITY_THRESHOLD
+        )
+
         # Highlight the best matching chunk dynamically and save to file system
-        best_page_number = highlight_chunk_and_save(pdf_path, highlighted_pdf_path, top_chunk)
+        highlight_chunk_with_coordinates(
+            pdf_path, highlighted_pdf_path, metadata["page"], metadata["coordinates"], sentences_with_high_similarity
+        )
         print(f"[INFO] Updated PDF saved with highlights to: {highlighted_pdf_path}")
 
         # Create the URL with the page number as a query parameter
-        pdf_viewer_url = f"http://localhost:8502/?page={best_page_number}"  # Adding 1 to match typical page numbering
+        pdf_viewer_url = f"http://localhost:8502/?page={metadata['page']}"
 
         # Display the "Test Traceback" button
         st.markdown(
