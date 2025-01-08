@@ -17,9 +17,6 @@ cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 # Initialize Sentence Transformer for cosine similarity
 similarity_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
-# Download NLTK tokenizer
-
-
 
 class HuggingFaceEmbeddings:
     """Custom wrapper for Hugging Face SentenceTransformer embeddings."""
@@ -35,8 +32,8 @@ class HuggingFaceEmbeddings:
         return self.embedding_model.encode(text, convert_to_tensor=False).tolist()
 
 
-def initialize_db(pdf_path, db_path):
-    """Process the PDF, chunk it, and store it in the Chroma vector database with chunk coordinates."""
+def initialize_db(pdf_dir, db_path):
+    """Process all PDF files in the directory, chunk them, and store in the Chroma vector database with metadata."""
     if os.path.exists(db_path):
         print(f"[INFO] Deleting existing Chroma database at {db_path} to avoid conflicts.")
         shutil.rmtree(db_path, ignore_errors=True)
@@ -45,16 +42,29 @@ def initialize_db(pdf_path, db_path):
     chroma_settings = Settings(persist_directory=db_path, anonymized_telemetry=False)
     vector_db = Chroma(persist_directory=db_path, embedding_function=embeddings, client_settings=chroma_settings)
 
-    text_chunks_with_metadata = extract_chunks_with_coordinates(pdf_path)
-    chunk_texts = [item["text"] for item in text_chunks_with_metadata]
-    metadata = [{"page": item["page"], "coordinates": json.dumps(item["coordinates"])} for item in text_chunks_with_metadata]
+    # Process each PDF file in the directory
+    for file_name in os.listdir(pdf_dir):
+        if file_name.endswith(".pdf"):
+            pdf_path = os.path.join(pdf_dir, file_name)
+            text_chunks_with_metadata = extract_chunks_with_coordinates(pdf_path, file_name)
+            chunk_texts = [item["text"] for item in text_chunks_with_metadata]
+            metadata = [
+                {
+                    "file_name": file_name,
+                    "page": item["page"],
+                    "coordinates": json.dumps(item["coordinates"])
+                }
+                for item in text_chunks_with_metadata
+            ]
 
-    vector_db.add_texts(chunk_texts, metadatas=metadata)
+            vector_db.add_texts(chunk_texts, metadatas=metadata)
+
     vector_db.persist()
+    print("[INFO] Vector database initialized with all PDF files.")
 
 
-def extract_chunks_with_coordinates(pdf_path, chunk_size=500, chunk_overlap=50):
-    """Extract chunks from the PDF along with their coordinates (bounding boxes)."""
+def extract_chunks_with_coordinates(pdf_path, file_name, chunk_size=500, chunk_overlap=50):
+    """Extract chunks from the PDF along with their coordinates (bounding boxes) and file name."""
     doc = fitz.open(pdf_path)
     chunks_with_metadata = []
 
@@ -74,6 +84,7 @@ def extract_chunks_with_coordinates(pdf_path, chunk_size=500, chunk_overlap=50):
 
             chunks_with_metadata.append({
                 "text": chunk,
+                "file_name": file_name,
                 "page": page_num,
                 "coordinates": coordinates
             })
@@ -82,66 +93,94 @@ def extract_chunks_with_coordinates(pdf_path, chunk_size=500, chunk_overlap=50):
 
 
 def response_from_llm(user_question, chat_history):
-    """Retrieve, rank, and send the best context to the LLM."""
+    """Retrieve, rank, and send the best context to the LLM based on metadata filtering."""
     db_path = "chroma_db"
+
+    print("&" * 50)
+    print("Inside response_from_llm")
 
     embeddings = HuggingFaceEmbeddings()
     chroma_settings = Settings(persist_directory=db_path, anonymized_telemetry=False)
-
     vector_db = Chroma(persist_directory=db_path, embedding_function=embeddings, client_settings=chroma_settings)
 
-    # Step 1: Retrieve top 5 chunks from vector database based on initial similarity
-    top_chunks_with_scores = vector_db.similarity_search_with_score(user_question, k=2)
+    # Step 1: Split the user query into metadata and actual query using the external service
+    print(f"User question: {user_question}")
+    
+    split_url = "http://127.0.0.1:5000/split_query"
+    response = requests.post(split_url, json={"question": user_question})
+    
+    print(f"Response status code: {response.status_code}")
+    print(f"Response text: {response.text}")
+    
+    response_data = response.json()
+    print(f"Response data: {response_data}")
 
-    # Print the initial top 5 chunks with their similarity scores
-    print("\n[INFO] Initial top 5 chunks retrieved from vector DB:")
-    for i, (chunk, score) in enumerate(top_chunks_with_scores, 1):
-        print("#" * 50)
-        print(f"Chunk {i} (Score: {score:.4f}): {chunk.page_content}...")
+    # Extract metadata and actual query
+    raw_metadata = response_data.get("metadata", {})
+    actual_query = response_data.get("query", "").strip()
 
-    # Extract chunk texts for cross-encoding
-    top_chunks = [chunk.page_content for chunk, _ in top_chunks_with_scores]
+    print(f"Raw metadata: {raw_metadata}")
+    print(f"Actual query: {actual_query}")
 
-    # Step 2: Cross-encode the chunks and re-rank based on cross-encoder scores
-    query_chunk_pairs = [(user_question, chunk) for chunk in top_chunks]
-    cross_encoded_scores = cross_encoder.predict(query_chunk_pairs)
+    # Step 2: Perform vector similarity search with metadata filtering
+    result_sets = []
+    for key, value in raw_metadata.items():
+        metadata_filter = {key: {"$eq": value}}
+        print(f"Performing search with filter: {metadata_filter}")
+        
+        results = vector_db.similarity_search(actual_query, 5, filter=metadata_filter)
+        
+        if results:
+            # Convert results to a set of tuples (page_content, metadata) for intersection
+            result_set = set((doc.page_content, json.dumps(doc.metadata)) for doc in results)
+            result_sets.append(result_set)
+            print(f"Results for {key}: {result_set}")
+        else:
+            print(f"No results for filter: {metadata_filter}")
+    
+    # Check if any result set is empty before intersecting
+    if not result_sets:
+        print("[INFO] No matching documents found.")
+        return "[INFO] No matching documents found.", {}, ""
 
-    # Pair chunks with their cross-encoder scores and sort them in descending order
-    ranked_chunks_with_scores = sorted(
-        zip(top_chunks_with_scores, cross_encoded_scores),
-        key=lambda x: x[1],  # Sort by score (descending)
-        reverse=True
-    )
+    # Find intersection of non-empty result sets
+    intersected_results = set.intersection(*result_sets) if result_sets else set()
+    
+    print(f"Final intersected results: {intersected_results}")
 
-    # Use the top-ranked chunk after re-ranking
-    top_chunk, score = ranked_chunks_with_scores[0][0]
-    metadata = top_chunk.metadata
-    metadata["coordinates"] = json.loads(metadata["coordinates"])  # Deserialize coordinates
+    if not intersected_results:
+        return "[INFO] No matching documents found.", {}, ""
+
+    # Extract the top chunk and its metadata
+    top_chunk_content, top_metadata_str = list(intersected_results)[0]  # Get the first result
+    top_chunk = top_chunk_content
+    metadata = json.loads(top_metadata_str)  # Deserialize metadata
+
+    # Debugging print to ensure 'file_name' is present in metadata
+    print(f"Retrieved metadata: {metadata}")
 
     payload = {
         "chathistory": [msg.content for msg in chat_history],
-        "context": top_chunk.page_content,
-        "question": user_question
+        "context": top_chunk,
+        "question": actual_query
     }
+
+    # Print the payload before sending it to the Flask service
+    print(f"Payload sent to LLM service: {payload}")
 
     response = requests.post("http://127.0.0.1:5000/", json=payload)
     response.raise_for_status()
     full_response = response.json().get("answer", "No answer provided.")
 
-    return top_chunk.page_content, metadata, full_response
+    return top_chunk, metadata, full_response
 
 def get_sentences_similarity(pdf_path, page_num, chunk_coordinates, llm_response, threshold):
     """Compare cosine similarity of each sentence in the chunk with the LLM response and return high-similarity sentences."""
     doc = fitz.open(pdf_path)
     page = doc.load_page(page_num)
-    
-    print("*" * 50)
-    print("Inside get_sentences_similarity:")
 
     # Extract the chunk text using the provided coordinates
     chunk_text = " ".join(page.get_textbox(fitz.Rect(*coord)) for coord in chunk_coordinates)
-    print("chunk_text:", chunk_text)
-    print("llm_response: "+llm_response)
 
     # Tokenize the chunk into sentences
     sentences = nltk.sent_tokenize(chunk_text)
@@ -156,17 +195,9 @@ def get_sentences_similarity(pdf_path, page_num, chunk_coordinates, llm_response
     # Pair sentences with their similarity scores
     sentences_with_scores = list(zip(sentences, similarities))
 
-    # Sort sentences by similarity score in descending order
-    sorted_sentences_with_scores = sorted(sentences_with_scores, key=lambda x: x[1], reverse=True)
-
-    # Print sorted sentences with similarity scores
-    print("\n[INFO] Sentences sorted by cosine similarity:")
-    for sentence, score in sorted_sentences_with_scores:
-        print(f"Score: {score:.4f}, Sentence: {sentence}")
-
     # Find high-similarity sentences and their coordinates
     high_similarity_sentences = []
-    for sentence, score in sorted_sentences_with_scores:
+    for sentence, score in sentences_with_scores:
         if score >= threshold:
             search_results = page.search_for(sentence)
             if search_results:  # Ensure search_results is not empty

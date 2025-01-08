@@ -31,14 +31,14 @@ def highlight_chunk_with_coordinates(pdf_path, output_path, page_num, coordinate
 
 
 # Paths
-pdf_path = "C:\\gitworkspace\\aimldemo\\jupyterworkapce\\11 genAI\\doc_inputs\\Form_2287.pdf"
+pdf_dir = "C:\\gitworkspace\\aimldemo\\jupyterworkapce\\11 genAI\\doc_inputs"
 output_folder = os.path.dirname(__file__)
 highlighted_pdf_path = os.path.join(output_folder, "highlighted_output.pdf")
 
 # Initialize vector DB
 if "db_initialized" not in st.session_state:
     db_path = "chroma_db"
-    initialize_db(pdf_path, db_path)
+    initialize_db(pdf_dir, db_path)
     st.session_state.db_initialized = True
 
 if "chat_history" not in st.session_state:
@@ -71,6 +71,7 @@ if user_input is not None and user_input.strip():
         top_chunk, metadata, full_response = response_from_llm(user_input, st.session_state.chat_history)
 
         # Get high-similarity sentences within the chunk
+        pdf_path = os.path.join(pdf_dir, metadata["file_name"])
         sentences_with_high_similarity = get_sentences_similarity(
             pdf_path, metadata["page"], metadata["coordinates"], full_response, COSINE_SIMILARITY_THRESHOLD
         )
