@@ -29,6 +29,8 @@ def process_request():
         chat_history = data.get("chathistory", [])
         context = data.get("context", "")
         question = data.get("question", "")
+        
+        print(f"chat_history####: {chat_history}")
 
         # Ensure all fields are provided
         if not context or not question:
