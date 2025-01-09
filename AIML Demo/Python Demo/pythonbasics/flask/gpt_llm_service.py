@@ -22,7 +22,10 @@ llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.7)
 def process_request():
     try:
         # Parse the JSON input
+        print("#"*50)
+        print("inside process_request")
         data = request.get_json()
+        print(data)
         chat_history = data.get("chathistory", [])
         context = data.get("context", "")
         question = data.get("question", "")
@@ -46,6 +49,8 @@ def process_request():
 
         # Get response from LLM
         response = llm.predict(formatted_prompt)
+        
+        print("response:"+response)
 
         # Return the response
         return jsonify({

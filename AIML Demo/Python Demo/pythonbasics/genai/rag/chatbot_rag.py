@@ -11,25 +11,38 @@ st.title("RAG Chatbot")
 
 def highlight_chunk_with_coordinates(pdf_path, output_path, page_num, coordinates, sentences_with_high_similarity):
     """Highlight the chunk in yellow and high-similarity sentences in green."""
+    print(f"pdf_path: {pdf_path}")
+    print(f"output_path: {output_path}")
+    print(f"page_num: {page_num}")
+    print(f"coordinates: {coordinates}")
+    print(f"sentences_with_high_similarity: {sentences_with_high_similarity}")
+
     doc = fitz.open(pdf_path)
     page = doc.load_page(page_num)
 
     # Highlight the entire chunk in yellow
     for coord in coordinates:
-        rect = fitz.Rect(*coord)
-        page.add_highlight_annot(rect)
+        print(f"Processing coordinate: {coord}")
+        if isinstance(coord, list) and len(coord) == 4:  # Ensure coord is a list with 4 elements
+            rect = fitz.Rect(*coord)
+            page.add_highlight_annot(rect)
+        else:
+            print(f"Skipping invalid coordinate (not a list of 4 values): {coord}")
 
     # Highlight high-similarity sentences in green
     for sentence_coords in sentences_with_high_similarity:
-        rect = fitz.Rect(*sentence_coords)
-        highlight = page.add_highlight_annot(rect)
-        highlight.set_colors(stroke=(0, 1, 0))  # Green color
-        highlight.update()
+        print(f"Processing sentence coordinate: {sentence_coords}")
+        if isinstance(sentence_coords, list) and len(sentence_coords) == 4:  # Ensure sentence_coords is a list with 4 elements
+            rect = fitz.Rect(*sentence_coords)
+            highlight = page.add_highlight_annot(rect)
+            highlight.set_colors(stroke=(0, 1, 0))  # Green color
+            highlight.update()
+        else:
+            print(f"Skipping invalid sentence coordinate (not a list of 4 values): {sentence_coords}")
 
     doc.save(output_path, garbage=4)
     doc.close()
-
-
+    
 # Paths
 pdf_dir = "C:\\gitworkspace\\aimldemo\\jupyterworkapce\\11 genAI\\doc_inputs"
 output_folder = os.path.dirname(__file__)
@@ -71,7 +84,9 @@ if user_input is not None and user_input.strip():
         top_chunk, metadata, full_response = response_from_llm(user_input, st.session_state.chat_history)
 
         # Get high-similarity sentences within the chunk
-        pdf_path = os.path.join(pdf_dir, metadata["file_name"])
+        #pdf_path = os.path.join(pdf_dir, metadata["file_name"])
+        pdf_path = "C:\\gitworkspace\\aimldemo\\jupyterworkapce\\11 genAI\\doc_inputs\\Form_2287.pdf"
+        
         sentences_with_high_similarity = get_sentences_similarity(
             pdf_path, metadata["page"], metadata["coordinates"], full_response, COSINE_SIMILARITY_THRESHOLD
         )

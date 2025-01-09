@@ -174,13 +174,30 @@ def response_from_llm(user_question, chat_history):
 
     return top_chunk, metadata, full_response
 
-def get_sentences_similarity(pdf_path, page_num, chunk_coordinates, llm_response, threshold):
+def get_sentences_similarity(pdf_path, page_num, chunk_coordinates_str, llm_response, threshold):
     """Compare cosine similarity of each sentence in the chunk with the LLM response and return high-similarity sentences."""
     doc = fitz.open(pdf_path)
     page = doc.load_page(page_num)
 
+    # Deserialize chunk_coordinates from string to list of lists
+    try:
+        chunk_coordinates = json.loads(chunk_coordinates_str)
+        print(f"Parsed chunk coordinates: {chunk_coordinates}")
+    except json.JSONDecodeError as e:
+        print(f"Error parsing chunk_coordinates: {chunk_coordinates_str}")
+        raise ValueError("Invalid chunk coordinates format") from e
+
+    # Ensure chunk_coordinates is a list of lists with exactly 4 values each
+    if not all(isinstance(coord, list) and len(coord) == 4 for coord in chunk_coordinates):
+        print(f"Invalid chunk_coordinates structure: {chunk_coordinates}")
+        raise ValueError("chunk_coordinates must be a list of [x0, y0, x1, y1] lists")
+
+    # Debug: Print the properly parsed chunk coordinates
+    print("Using chunk_coordinates for highlighting:", chunk_coordinates)
+
     # Extract the chunk text using the provided coordinates
     chunk_text = " ".join(page.get_textbox(fitz.Rect(*coord)) for coord in chunk_coordinates)
+    print("Extracted chunk text:", chunk_text)
 
     # Tokenize the chunk into sentences
     sentences = nltk.sent_tokenize(chunk_text)
@@ -195,9 +212,17 @@ def get_sentences_similarity(pdf_path, page_num, chunk_coordinates, llm_response
     # Pair sentences with their similarity scores
     sentences_with_scores = list(zip(sentences, similarities))
 
+    # Sort sentences by similarity score in descending order
+    sorted_sentences_with_scores = sorted(sentences_with_scores, key=lambda x: x[1], reverse=True)
+
+    # Print sorted sentences with similarity scores
+    print("\n[INFO] Sentences sorted by cosine similarity:")
+    for sentence, score in sorted_sentences_with_scores:
+        print(f"Score: {score:.4f}, Sentence: {sentence}")
+
     # Find high-similarity sentences and their coordinates
     high_similarity_sentences = []
-    for sentence, score in sentences_with_scores:
+    for sentence, score in sorted_sentences_with_scores:
         if score >= threshold:
             search_results = page.search_for(sentence)
             if search_results:  # Ensure search_results is not empty
