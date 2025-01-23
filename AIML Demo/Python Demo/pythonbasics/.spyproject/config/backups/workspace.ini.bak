@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['genai\\chatbot\\llm_response_chat.py', 'genai\\chatbot\\chatbot.py']
+recent_files = ['fastapi\\fastapi_demo.py', 'flask\\gpt_llm_service.py', 'genai\\chatbot_rag_metadata\\chatbot_rag.py', 'genai\\chatbot_rag_metadata\\llm_response_chat_rag.py', 'Test.py', 'pytest\\addition.py', 'pytest\\addition_pytest.py', 'pytest\\math_service_mockito_test.py', 'pytest\\math_service.py', 'sonar-project.properties', 'flake8-report.txt', 'coverage.xml', 'fastapi\\credit_review_api.py']
 
 [main]
 version = 0.2.0
