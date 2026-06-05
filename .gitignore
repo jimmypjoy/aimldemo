@@ -1,56 +1,27 @@
-/Python Demo/
-/AIML Demo/Lib/*
-/AIML Demo/Include/*
-/AIML Demo/Scripts/*
-/AIML Demo/Scripts/*
-/AIML Demo/pyvenv.cfg
-/AIML Demo/.spyproject/*
-\AIML Demo\.spyproject\config\defaults\defaults-workspace-0.2.0.ini
-/jupyterworkapce/10 cnn/images.npy
-/jupyterworkapce/aiml course projects/Project 7 CNN/images.npy
-/jupyterworkapce/aws-upload-folder/images.npy
-jupyterworkapce/stratup_env_setup.py
-/jupyterworkapce/delete
-jupyterworkapce/11genAI/bert_downloads/pytorch_model.bin
-jupyterworkapce/11genAI/bert_downloads/tokenizer_config.json
-jupyterworkapce/11genAI/bert_downloads/vocab.txt
-jupyterworkapce/11genAI/chroma_db/a52f2a5d-2e1b-4b16-8b2f-dc51e4777a1e/data_level0.bin
-jupyterworkapce/11genAI/chroma_db/a52f2a5d-2e1b-4b16-8b2f-dc51e4777a1e/header.bin
-jupyterworkapce/11genAI/chroma_db/a52f2a5d-2e1b-4b16-8b2f-dc51e4777a1e/length.bin
-jupyterworkapce/11genAI/chroma_db/a52f2a5d-2e1b-4b16-8b2f-dc51e4777a1e/link_lists.bin
-jupyterworkapce/11genAI/chroma_db/chroma.sqlite3
-jupyterworkapce/11genAI/local_bert_base_uncased/config.json
-jupyterworkapce/11genAI/local_bert_base_uncased/pytorch_model.bin
-jupyterworkapce/11genAI/local_bert_base_uncased/special_tokens_map.json
-jupyterworkapce/11genAI/local_bert_base_uncased/tokenizer.json
-jupyterworkapce/11genAI/local_bert_base_uncased/tokenizer_config.json
-jupyterworkapce/11genAI/local_bert_base_uncased/vocab.txt
-/jupyterworkapce/11genAI/chroma_db
-/jupyterworkapce/__pycache__
-.ipynb_checkpoints/
-.spyproject/
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups/workspace.ini.bak
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/workspace.ini
-AIML Demo/Python Demo/pythonbasics/genai/__pycache__/langchain_dep.cpython-311.pyc
-.spyproject/
-__pycache__/
-bert_downloads/
-book_db/
-chroma_db/
-local_bert_base_uncased/
-reuters21578/
-.ipynb_checkpoints/
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups/workspace.ini.bak
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups/workspace.ini.bak
+.env
+/AIML Demo/Lib
+*.pyc
+/jupyterworkapce/11 genAI/reuters21578
+/AIML Demo/Scripts
+/jupyterworkapce/11 genAI/.ipynb_checkpoints
+/jupyterworkapce/11 genAI/bert_downloads
+/jupyterworkapce/11 genAI/book_db
+/jupyterworkapce/11 genAI/local_bert_base_uncased
+/jupyterworkapce/20 Agentic AI/.ipynb_checkpoints
+/jupyterworkapce/18 gradio/.ipynb_checkpoints
+*.npy
+*.db
+vscodeworkspace/ai-document-services/src/llm/__init__.py
+/jupyterworkapce/19 os/.ipynb_checkpoints
+/vscodeworkspace/ai-services/.idea
 /jupyterworkapce/genai course/llm applications/wiki_db
-jupyterworkapce/genai course/llm applications/memory.db
-jupyterworkapce/genai course/llm applications/simplewiki-2020-11-01.jsonl.gz
-/AIML Demo/Python Demo/pythonbasics/.spyproject/config
-/AIML Demo/Python Demo/pythonbasics/.spyproject/config
-/AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups/workspace.ini.bak
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/workspace.ini
-/AIML Demo/Python Demo/pythonbasics/.spyproject
-/AIML Demo/Python Demo/pythonbasics/.spyproject
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/backups/workspace.ini.bak
-AIML Demo/Python Demo/pythonbasics/.spyproject/config/workspace.ini
+/jupyterworkapce/genai course/llm applications/.ipynb_checkpoints
+/jupyterworkapce/genai course/projects/.ipynb_checkpoints
+/jupyterworkapce/genai course/projects/chatbot/.ipynb_checkpoints
+/jupyterworkapce/genai course/capstoneproject/.ipynb_checkpoints
+/jupyterworkapce/aiml course projects/Project 6 ANN/.ipynb_checkpoints
+/jupyterworkapce/delete/.ipynb_checkpoints
+/jupyterworkapce/genai course/projects/image generation/.ipynb_checkpoints
+*.gz
+*.pdf
+jupyterworkapce/stratup_env_setup.py
