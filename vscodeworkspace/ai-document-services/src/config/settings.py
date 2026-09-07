@@ -13,12 +13,10 @@ class Settings(BaseSettings):
     database_url: str = "postgresql+asyncpg://postgres:password@localhost:5432/postgres"
     openai_api_key: str = ""
     embedding_model: str = "text-embedding-3-small"
-    embedding_dimensions: int = 1536
     documents_base_path: str = r"C:\workspace\agentic-ai\testdocuments"
     chunk_size: int = 500
     chunk_overlap: int = 50
-    mcp_server_url: str = "http://127.0.0.1:3001"
-    adk_port: int = 8080
+    llm_service_url: str = "http://127.0.0.1:8000"
 
 
 @lru_cache

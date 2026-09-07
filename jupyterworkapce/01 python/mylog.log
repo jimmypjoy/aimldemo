@@ -54,3 +54,30 @@ WARNING:root:Warning
 INFO:root:Info
 INFO:Test LOGGER:Sample loging message
 INFO:Test LOGGER:Sample loging message
+CRITICAL:root:Critical
+ERROR:root:Error
+WARNING:root:Warning
+INFO:root:Info
+INFO:Test LOGGER:Sample loging message
+INFO:Test LOGGER:Sample loging message
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: ad313e50-ee10-41a6-a988-8853f1b1fec0
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 4afa69d9-8fad-46f5-895a-1fad1db170b9
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 1018b59d-e951-482a-9a07-a4705c556f56
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 1a48843c-717f-4417-a1c9-6901ce7f6f71
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: d820fee0-086f-4a7e-8878-bceed381f501
+CRITICAL:root:Critical
+ERROR:root:Error
+WARNING:root:Warning
+INFO:root:Info
+INFO:Test LOGGER:Sample loging message
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 3442721b-eb00-4c1f-848c-cb8fadd50a87
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: f954bca7-28dc-428d-b4fb-e07f71f4341d
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 5502d275-bfe9-484c-8bbe-64c64ecda005

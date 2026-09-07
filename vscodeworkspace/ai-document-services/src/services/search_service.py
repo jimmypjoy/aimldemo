@@ -6,7 +6,6 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from db.entities.chunk_embedding_entity import ChunkEmbedding
 from db.entities.document_chunk_entity import DocumentChunk
 from db.entities.document_entity import Document
-from llm.enums.llm_enum import LLMModel
 from llm.llm_client import LLMClient
 from models.document.search_request import SearchRequest
 from models.document.search_response import ChunkResult, SearchResponse
@@ -24,15 +23,6 @@ Context:
 {context}"""
 
 _llm_client = LLMClient()
-
-
-def _resolve_model(model_str: str | None) -> LLMModel:
-    if not model_str:
-        return LLMModel.GPT_4O_MINI
-    for m in LLMModel:
-        if m.model_name == model_str or m.name == model_str:
-            return m
-    return LLMModel.GPT_4O_MINI
 
 
 class SearchService:
@@ -87,9 +77,9 @@ class SearchService:
             context = "\n\n---\n\n".join(context_blocks)
             system_prompt = _RAG_SYSTEM_PROMPT.format(context=context)
 
-            model = _resolve_model(request.llm_model)
-            llm_model_used = model.model_name
-            logger.info("Calling LLM for RAG answer | model=%s chunks=%d", model.model_name, len(chunk_results))
+            model = request.llm_model or "gemini-3.1-pro-preview"
+            llm_model_used = model
+            logger.info("Calling LLM for RAG answer | model=%s chunks=%d", model, len(chunk_results))
             llm_answer = await _llm_client.invoke(
                 prompt=system_prompt,
                 query=request.query,

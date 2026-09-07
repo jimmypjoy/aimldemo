@@ -13,4 +13,4 @@ if __name__ == "__main__":
     host = os.getenv("MCP_HOST", "127.0.0.1")
     port = int(os.getenv("MCP_PORT", "3001"))
     print(f"Starting MCP server on http://{host}:{port}")
-    mcp.run(transport="sse")
+    mcp.run(transport="streamable-http")

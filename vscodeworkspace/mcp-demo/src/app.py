@@ -1,38 +1,38 @@
-import os
+import logging
 
+from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 
-from resources.document_qa_guidance import DOCUMENT_QA_GUIDANCE
-from tools.document_qa_tool import build_qa_response
+load_dotenv()
 
-mcp = FastMCP(
-    name="document-qa-mcp",
-    host=os.getenv("MCP_HOST", "127.0.0.1"),
-    port=int(os.getenv("MCP_PORT", "3001")),
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 
+logger = logging.getLogger(__name__)
 
-@mcp.resource("document-qa://guidance")
-def document_qa_guidance() -> str:
-    """General-purpose guidance for answering questions from ingested PDF documents."""
-    return DOCUMENT_QA_GUIDANCE
+# Deferred imports: must run after load_dotenv() so settings and the module-level
+# httpx client initialise with environment variables already in place.
+from config.settings import get_settings  # noqa: E402
+from tools.company_details_tool import get_company_details  # noqa: E402
+from tools.document_query_tool import query_document  # noqa: E402
+from tools.market_capitalization_tool import market_capitalization_web_search  # noqa: E402
 
+settings = get_settings()
 
-@mcp.tool()
-def answer_document_question(document_text: str, question: str) -> str:
-    """
-    Provides step-by-step guidance and an output schema for answering any user
-    question from the supplied document chunks.
+mcp = FastMCP(
+    name="document-query-mcp",
+    host=settings.mcp_host,
+    port=settings.mcp_port,
+)
 
-    Supports: specific factual questions, page summaries, comparisons,
-    explanations, and list extraction.
+mcp.add_tool(query_document)
+mcp.add_tool(market_capitalization_web_search)
+mcp.add_tool(get_company_details)
 
-    Args:
-        document_text: Concatenated text of the retrieved document chunks,
-                       including page numbers where available.
-        question: The user's original question exactly as asked.
-
-    Returns:
-        JSON string containing Q&A guidance, output schema, and instructions.
-    """
-    return build_qa_response(document_text, question)
+logger.info(
+    "document-query-mcp initialised | document_service_url=%s",
+    settings.document_service_url,
+)

@@ -5,3 +5,211 @@ WARNING:root:Warning
 INFO:root:Info
 DEBUG:root:Debug
 INFO:Test LOGGER:Sample loging message
+INFO:Test LOGGER:Sample loging message
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 2760f6d4-9602-4329-bf55-aa39caea3d39
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: e60cd0bf-dbaa-4e81-9c6a-531b13a6cb74
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: fe9a53c1-3ced-4566-853c-ea8924f0a103
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: beefab1d-a388-4ff7-9f9f-664d74feeb8e
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 8c7fc427-4892-415b-ab0d-fec24d4e1a16
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 35df21d4-cc68-41a8-8b26-989618a2e079
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 0a18c4e9-5602-45c2-8039-7605a723ddc7
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 03da53fd-0475-46ea-9f30-8f656b06b15e
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 688463e3-a676-44e7-85ad-bfcfa173bcc5
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 45c5387c-0e21-4601-aa0f-e176743d63ee
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: a65e94fa-2efd-47a5-a1a4-3f4fbecc93d0
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: c92b047a-ae8d-4c7f-a500-c4b9b0442000
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: f61e2a6c-11d0-4fe8-b373-8a84953b637d
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: da664753-88ce-43f1-ad62-d4843da6fca3
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: b9d18ad9-3e6b-470a-b23e-bcb689d36f94
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 4bd84f1e-90e5-472d-88ed-f27001dd24d5
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 345d6898-7847-4275-8205-aced55d2ef5c
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 61efecc4-0221-45b5-89e6-aecd92383a74
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 40a6156f-822e-497a-9ce7-59b71289c1b8
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 564ea2d6-8c03-4727-9d3b-d52da378f6e0
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: ecd49772-f81d-42e7-a327-95a0bfbf78fa
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: fb16f27a-072b-4be9-862a-ba5d16d2c5c6
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: bf48ef2f-5352-4180-a4cb-f38d1d19bd68
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: d721c41e-d3b7-4c7a-b036-58168de1ef0e
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 89663d56-dba0-48b8-ba54-643f9ca2f891
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 118c9141-8a56-421f-8d0a-379a4dd6a959
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: c207d99f-a0b3-4012-890f-5d4f85c03468
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 141f64b7-f71a-4bc9-baaf-f3e64ab1d758
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 1dca6106-1b0f-4d44-8dd7-7453c21f10b7
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 65dd6d71-7bbd-4de4-b64b-0ace98f05b70
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: dab433ce-1f50-46d1-b550-10e7a4e49de2
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: e7fb13ba-c88b-4f27-911f-73e4c6558efb
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: cb7ef64c-6c0c-4f65-80eb-85dfc78831a5
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: cfd5b155-2bf9-4be7-a868-37051d39cb6d
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: d666344c-36e5-4145-8be0-e537ea0ea592
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: d4b379ec-2754-4910-a778-53a687947aef
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 5602d3f1-9300-4ae2-8a94-1270b0a9f5b2
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 35ff44ef-6f0e-47bc-be9c-3e9c070ea0f3
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: dd3551d9-bc2e-4add-a320-bf420ac25e65
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: e4ba221b-e606-4029-9cee-33adf4fe447d
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 4db23c24-1b59-4b66-bde5-b609a09faf0a
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 89cdd5f2-236c-4da0-b9c3-fa64666de6b0
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: e13c3b52-4bd7-497a-b897-13a1e77e3a08
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: cd3238b9-b9ba-4a2e-8161-d44b75512413
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 426efad8-29e0-4cec-aca8-96f8e9c5b9fa
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 2ced0011-480a-4176-90aa-2fc54a5051f4
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 13ad1c64-03fa-41b5-a96c-b111e76d7076
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 4e171c3f-cf2b-4cb7-ba2d-40ac9b326069
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: bcbeae76-a06c-48eb-8539-e6a2b99bd352
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: a7db27fd-be47-4397-a103-af9becfaa321
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: f186ac45-8b6c-4f6c-8137-bb4da39b8fa8
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 85ae1705-1e1c-4dc1-8af1-442149f0c5bd
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 29ab35e0-b482-43ba-9e92-abb703bbe4fe
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 9c380eba-88d3-4d62-9d2b-189a30845ebf
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 46930889-aeba-4587-8efd-0d2f1cdcae6a
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 7f9401f9-2256-43e9-8daf-7e77007714ba
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: c62134ab-db26-4498-9d38-6f49a5d2f794
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 4371e4ed-f235-4059-9040-e831d574eda2
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 783e273f-cb82-4e3b-8ffe-6b7365fe37ba
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 9d60e49b-fb07-4fac-afd4-23e89955573d
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 8a89b693-30c5-4c16-b655-a6e03f3ffc90
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 8c4f9a50-79b1-48bc-9baf-1ee0ba098ab6
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 1af15a5f-5f1d-4471-ad62-0cc7444b7eff
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 25b94cb0-f655-49e8-95b9-f3178b620c8d
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 279ea26f-ed7a-40c9-9770-5c49474a2de9
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 5e70e770-35c8-492f-abd6-dcc174b69c0c
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 2e42978a-7aa6-49b4-9ec6-0bf87df4bdf0
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 2181ac15-6e35-4fd8-9290-7dbe979ebce6
+DEBUG:Comm:Current comms: []
+ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 9508409f-0883-4403-9803-ef30f7a0b01e
+DEBUG:Comm:Current comms: []

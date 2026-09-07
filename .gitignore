@@ -24,4 +24,17 @@ vscodeworkspace/ai-document-services/src/llm/__init__.py
 /jupyterworkapce/genai course/projects/image generation/.ipynb_checkpoints
 *.gz
 *.pdf
+~$*
 jupyterworkapce/stratup_env_setup.py
+/vscodeworkspace/python/.idea
+/jupyterworkapce/01 python/.ipynb_checkpoints
+jupyterworkapce/01 python/mylog.log
+*.log
+*.log
+jupyterworkapce/.ipynb_checkpoints/stratup_env_setup-checkpoint.py
+jupyterworkapce/01 python/.ipynb_checkpoints/python_basics-checkpoint.ipynb
+jupyterworkapce/01 python/.ipynb_checkpoints/python_basics-checkpoint.ipynb
+jupyterworkapce/01 python/mylog.log
+jupyterworkapce/04 numpy/zipped_file_name.npz
+jupyterworkapce/04 numpy/zipped_file_name.npz
+/jupyterworkapce/genai course/.ipynb_checkpoints

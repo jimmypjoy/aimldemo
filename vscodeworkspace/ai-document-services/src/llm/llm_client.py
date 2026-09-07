@@ -1,35 +1,37 @@
 import logging
 import time
 
-from openai import AsyncOpenAI
+import httpx
 
-from llm.enums.llm_enum import LLMModel
+from config.settings import get_settings
 
 logger = logging.getLogger(__name__)
+settings = get_settings()
 
-_openai_client = AsyncOpenAI()
+_client = httpx.AsyncClient(base_url=settings.llm_service_url, timeout=60.0)
 
 
 class LLMClient:
 
-    async def invoke(self, prompt: str, query: str, model: LLMModel) -> str:
-        logger.info("LLMClient.invoke ENTRY | model=%s", model.model_name)
+    async def invoke(self, prompt: str, query: str, model: str) -> str:
+        logger.info("LLMClient.invoke ENTRY | model=%s", model)
         start = time.perf_counter()
         try:
-            completion = await _openai_client.chat.completions.create(
-                model=model.model_name,
-                messages=[
-                    {"role": "system", "content": prompt},
-                    {"role": "user", "content": query},
-                ],
-                timeout=60,
+            resp = await _client.post(
+                "/api/v1/llm/invoke",
+                json={"query": query, "prompt": prompt, "llm_model": model},
             )
-            response_text = completion.choices[0].message.content
+            resp.raise_for_status()
+            data = resp.json()
             elapsed = time.perf_counter() - start
-            logger.info("LLMClient.invoke EXIT | model=%s time=%.3fs", model.model_name, elapsed)
-            return response_text
+
+            if not data.get("success"):
+                raise RuntimeError(data.get("exception_message") or "LLM invocation failed")
+
+            logger.info("LLMClient.invoke EXIT | model=%s time=%.3fs", model, elapsed)
+            return data["llm_response"]
         except Exception as exc:
             elapsed = time.perf_counter() - start
             logger.error("LLMClient.invoke FAILED | model=%s time=%.3fs error=%s",
-                         model.model_name, elapsed, exc, exc_info=True)
+                         model, elapsed, exc, exc_info=True)
             raise

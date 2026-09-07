@@ -4,7 +4,6 @@ from collections.abc import AsyncGenerator
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 
 from config.settings import get_settings
-from db.base import Base  # noqa: F401 — re-exported for convenience
 
 logger = logging.getLogger(__name__)
 

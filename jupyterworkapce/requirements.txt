@@ -1,0 +1,17 @@
+#AIML
+pandas
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+
+#nlp
+PyPDF2
+opencv-python
+pytesseract
+nltk
+beautifulsoup4
+
+#jupyter notebook
+jupyter_client
+ipykernel
