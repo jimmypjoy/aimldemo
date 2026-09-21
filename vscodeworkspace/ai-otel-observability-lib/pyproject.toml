@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-otel-observability"
+version = "0.1.0"
+description = "Shared OpenTelemetry setup for agentic services: exporters, resource attributes, business-context baggage propagation, and the fixes for the known OTel/ADK/MCP pitfalls, so individual teams don't have to rediscover them."
+requires-python = ">=3.10"
+dependencies = [
+    "opentelemetry-api>=1.42.1,<2",
+    "opentelemetry-sdk>=1.42.1,<2",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.42.1,<2",
+    "opentelemetry-instrumentation>=0.63b0",
+    "opentelemetry-instrumentation-httpx>=0.63b0",
+    "opentelemetry-instrumentation-logging>=0.63b0",
+]
+
+# Teams opt into only what their project actually uses. Core `setup()` never
+# imports any of these at module level -- each one is imported lazily, inside
+# the function that needs it, so installing without an extra never breaks
+# `import ai_otel_observability`.
+[project.optional-dependencies]
+fastapi = ["opentelemetry-instrumentation-fastapi>=0.63b0"]
+asgi = ["opentelemetry-instrumentation-asgi>=0.63b0"]
+sqlalchemy = ["opentelemetry-instrumentation-sqlalchemy>=0.63b0"]
+adk = ["google-adk>=2.8.0"]
+
+[tool.setuptools.packages.find]
+include = ["ai_otel_observability*"]

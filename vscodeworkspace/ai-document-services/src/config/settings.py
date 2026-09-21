@@ -8,6 +8,7 @@ class Settings(BaseSettings):
         env_file=".env",
         env_file_encoding="utf-8",
         case_sensitive=False,
+        extra="ignore",
     )
 
     database_url: str = "postgresql+asyncpg://postgres:password@localhost:5432/postgres"

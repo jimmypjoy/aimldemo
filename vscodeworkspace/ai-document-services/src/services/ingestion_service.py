@@ -1,5 +1,6 @@
 import hashlib
 import logging
+import time
 import uuid
 from datetime import datetime, timezone
 
@@ -8,6 +9,8 @@ def _utcnow() -> datetime:
     return datetime.now(timezone.utc).replace(tzinfo=None)
 from pathlib import Path
 
+from opentelemetry import trace
+from opentelemetry.trace import Status, StatusCode
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -16,6 +19,11 @@ from db.entities.chunk_embedding_entity import ChunkEmbedding
 from db.entities.document_chunk_entity import DocumentChunk
 from db.entities.document_entity import Document
 from db.entities.processing_run_entity import ProcessingRun
+from metrics import (
+    chunks_embedded_total,
+    document_ingestion_duration_seconds,
+    documents_ingested_total,
+)
 from models.document.ingest_request import IngestRequest
 from models.document.ingest_response import IngestResponse
 from util.embedding_util import get_embeddings_batch
@@ -50,9 +58,12 @@ class IngestionService:
         self, request: IngestRequest, session: AsyncSession
     ) -> IngestResponse:
         logger.info("IngestionService.ingest_document ENTRY | file_name=%s", request.file_name)
+        start = time.perf_counter()
 
         file_path = Path(settings.documents_base_path) / request.file_name
         if not file_path.exists():
+            documents_ingested_total.add(1, {"outcome": "not_found"})
+            document_ingestion_duration_seconds.record(time.perf_counter() - start, {"outcome": "not_found"})
             raise FileNotFoundError(f"File not found: {file_path}")
 
         doc_hash = _compute_file_hash(file_path)
@@ -64,6 +75,8 @@ class IngestionService:
         existing = existing_result.scalar_one_or_none()
         if existing and existing.ingestion_status == "COMPLETED":
             logger.info("Document already ingested | document_id=%s", existing.document_id)
+            documents_ingested_total.add(1, {"outcome": "already_ingested"})
+            document_ingestion_duration_seconds.record(time.perf_counter() - start, {"outcome": "already_ingested"})
             return IngestResponse(
                 document_id=existing.document_id,
                 file_name=existing.file_name,
@@ -160,6 +173,10 @@ class IngestionService:
                 document_id, len(all_chunk_texts), page_count, is_scanned,
             )
 
+            documents_ingested_total.add(1, {"outcome": "completed"})
+            chunks_embedded_total.add(len(all_chunk_texts))
+            document_ingestion_duration_seconds.record(time.perf_counter() - start, {"outcome": "completed"})
+
             return IngestResponse(
                 document_id=document_id,
                 file_name=request.file_name,
@@ -178,4 +195,11 @@ class IngestionService:
             run.error_message = str(exc)
             run.end_timestamp = _utcnow()
             await session.commit()
+
+            documents_ingested_total.add(1, {"outcome": "failed"})
+            document_ingestion_duration_seconds.record(time.perf_counter() - start, {"outcome": "failed"})
+            span = trace.get_current_span()
+            span.record_exception(exc)
+            span.set_status(Status(StatusCode.ERROR, str(exc)))
+
             raise

@@ -6,7 +6,10 @@ from google import genai
 from google.genai import types
 from langfuse import Langfuse, observe
 from openai import OpenAI
+from opentelemetry import trace
+from opentelemetry.trace import Status, StatusCode
 
+from metrics import llm_call_duration_seconds, llm_invocations_total, llm_tokens_total
 from models.llm.llm_request import LLMRequest
 from models.llm.llm_response import LLMResponse
 
@@ -72,6 +75,13 @@ class LLMClient:
                 } if usage else None,
             )
 
+            metric_attrs = {"model_family": request.llm_model.family, "model": request.llm_model.model_name}
+            llm_invocations_total.add(1, {**metric_attrs, "success": True})
+            llm_call_duration_seconds.record(elapsed, metric_attrs)
+            if usage:
+                llm_tokens_total.add(usage.prompt_tokens, {**metric_attrs, "token_type": "input"})
+                llm_tokens_total.add(usage.completion_tokens, {**metric_attrs, "token_type": "output"})
+
             return LLMResponse(
                 llm_response=response_text,
                 llm_model=request.llm_model,
@@ -83,6 +93,14 @@ class LLMClient:
             logger.error("_invoke_gpt FAILED | model=%s response_time=%.3fs error=%s",
                          request.llm_model.model_name, elapsed, exc, exc_info=True)
             _langfuse.update_current_generation(level="ERROR", status_message=str(exc))
+
+            metric_attrs = {"model_family": request.llm_model.family, "model": request.llm_model.model_name}
+            llm_invocations_total.add(1, {**metric_attrs, "success": False})
+            llm_call_duration_seconds.record(elapsed, metric_attrs)
+            span = trace.get_current_span()
+            span.record_exception(exc)
+            span.set_status(Status(StatusCode.ERROR, str(exc)))
+
             return LLMResponse(
                 llm_response="",
                 llm_model=request.llm_model,
@@ -123,6 +141,13 @@ class LLMClient:
                 } if usage else None,
             )
 
+            metric_attrs = {"model_family": request.llm_model.family, "model": request.llm_model.model_name}
+            llm_invocations_total.add(1, {**metric_attrs, "success": True})
+            llm_call_duration_seconds.record(elapsed, metric_attrs)
+            if usage:
+                llm_tokens_total.add(usage.prompt_token_count, {**metric_attrs, "token_type": "input"})
+                llm_tokens_total.add(usage.candidates_token_count, {**metric_attrs, "token_type": "output"})
+
             return LLMResponse(
                 llm_response=response_text,
                 llm_model=request.llm_model,
@@ -134,6 +159,14 @@ class LLMClient:
             logger.error("_invoke_gemini FAILED | model=%s response_time=%.3fs error=%s",
                          request.llm_model.model_name, elapsed, exc, exc_info=True)
             _langfuse.update_current_generation(level="ERROR", status_message=str(exc))
+
+            metric_attrs = {"model_family": request.llm_model.family, "model": request.llm_model.model_name}
+            llm_invocations_total.add(1, {**metric_attrs, "success": False})
+            llm_call_duration_seconds.record(elapsed, metric_attrs)
+            span = trace.get_current_span()
+            span.record_exception(exc)
+            span.set_status(Status(StatusCode.ERROR, str(exc)))
+
             return LLMResponse(
                 llm_response="",
                 llm_model=request.llm_model,

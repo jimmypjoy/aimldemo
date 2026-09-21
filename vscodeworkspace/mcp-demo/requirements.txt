@@ -4,3 +4,10 @@ pydantic-settings>=2.0.0
 httpx>=0.27.0
 pandas>=2.0.0
 openpyxl>=3.1.0
+# Pinned to the version compatible with google-adk/langfuse in the shared environment.
+opentelemetry-api==1.42.1
+opentelemetry-sdk==1.42.1
+opentelemetry-exporter-otlp-proto-grpc==1.42.1
+opentelemetry-instrumentation-asgi
+opentelemetry-instrumentation-httpx
+opentelemetry-instrumentation-logging
